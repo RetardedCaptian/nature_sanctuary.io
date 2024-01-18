@@ -1,6 +1,6 @@
 {
-    "name": "nature_sanctuary",
-    "short_name": "nature_sanctuary",
+    "name": "nature_sanctuary_v2",
+    "short_name": "nature_sanctuary_v2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
