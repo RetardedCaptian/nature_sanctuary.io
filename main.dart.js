@@ -240,7 +240,7 @@ mJ:function mJ(){},
 qj:function qj(){},
 fS:function fS(){}},A={
 alF(a,b){if(a==="Google Inc.")return B.bd
-else if(a==="Apple Computer, Inc.")return B.F
+else if(a==="Apple Computer, Inc.")return B.E
 else if(B.e.p(b,"Edg/"))return B.bd
 else if(a===""&&B.e.p(b,"firefox"))return B.aV
 A.iG("WARNING: failed to detect current browser engine. Assuming this is a Chromium-compatible browser.")
@@ -533,15 +533,15 @@ p=t.EB
 o=p.j("q.E")
 A.fH(s,l+" flt-scene-host {\n      font: "+c+";\n    }\n  ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 n=$.by()
-if(n===B.F)A.fH(s,"      "+b+" * {\n      -webkit-tap-highlight-color: transparent;\n    }\n    ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
+if(n===B.E)A.fH(s,"      "+b+" * {\n      -webkit-tap-highlight-color: transparent;\n    }\n    ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 if(n===B.aV)A.fH(s,"      "+b+" flt-paragraph,\n      "+b+" flt-span {\n        line-height: 100%;\n      }\n    ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 A.fH(s,l+" flt-semantics input[type=range] {\n      appearance: none;\n      -webkit-appearance: none;\n      width: 100%;\n      position: absolute;\n      border: none;\n      top: 0;\n      right: 0;\n      bottom: 0;\n      left: 0;\n    }\n  ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
-if(n===B.F)A.fH(s,"      "+b+" flt-semantics input[type=range]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n      }\n    ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
+if(n===B.E)A.fH(s,"      "+b+" flt-semantics input[type=range]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n      }\n    ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 A.fH(s,l+" input::selection {\n      background-color: transparent;\n    }\n  ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 A.fH(s,l+" textarea::selection {\n      background-color: transparent;\n    }\n  ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 A.fH(s,l+" flt-semantics input,\n    "+b+" flt-semantics textarea,\n    "+b+' flt-semantics [contentEditable="true"] {\n      caret-color: transparent;\n    }\n    ',J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 A.fH(s,l+" .flt-text-editing::placeholder {\n      opacity: 0;\n    }\n  ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
-if(n!==B.bd)l=n===B.F
+if(n!==B.bd)l=n===B.E
 else l=!0
 if(l)A.fH(s,"      "+b+" .transparentTextEditing:-webkit-autofill,\n      "+b+" .transparentTextEditing:-webkit-autofill:hover,\n      "+b+" .transparentTextEditing:-webkit-autofill:focus,\n      "+b+" .transparentTextEditing:-webkit-autofill:active {\n        opacity: 0 !important;\n      }\n    ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))
 if(B.e.p(self.window.navigator.userAgent,"Edg/"))try{A.fH(s,"        "+b+" input::-ms-reveal {\n          display: none;\n        }\n        ",J.bb(A.bq(new A.d3(s.cssRules,p),o,q).a))}catch(m){l=A.a7(m)
@@ -646,7 +646,7 @@ o=A.aH(self.document,"div")
 n=o.style
 n.setProperty("position","absolute","")
 n=$.by()
-if(n===B.F){n=o.style
+if(n===B.E){n=o.style
 n.setProperty("z-index","0","")}if(s==null)s=o
 else r.append(o)
 m=p.a
@@ -767,7 +767,7 @@ q.setAttribute("clip-rule",p)}p=A.U(A.abp(t.v.a(b).a,0,0))
 if(p==null)p=t.K.a(p)
 q.setAttribute("d",p)
 p="url(#svgClip"+$.a16+")"
-if(r===B.F)A.l(a.style,"-webkit-clip-path",p)
+if(r===B.E)A.l(a.style,"-webkit-clip-path",p)
 A.l(a.style,"clip-path",p)
 r=a.style
 A.l(r,"width",A.f(m)+"px")
@@ -889,7 +889,7 @@ m=A.bX(b.r)
 o=b.x
 if(o!=null){l=o.b
 o=$.by()
-if(o===B.F&&!i){A.l(n,"box-shadow","0px 0px "+A.f(l*2)+"px "+m)
+if(o===B.E&&!i){A.l(n,"box-shadow","0px 0px "+A.f(l*2)+"px "+m)
 o=b.r
 m=A.bX(((B.c.br((1-Math.min(Math.sqrt(l)/6.283185307179586,1))*(o>>>24&255))&255)<<24|o&16777215)>>>0)}else A.l(n,"filter","blur("+A.f(l)+"px)")}A.l(n,"width",A.f(a.c-s)+"px")
 A.l(n,"height",A.f(a.d-r)+"px")
@@ -1459,7 +1459,7 @@ n=m.f
 o=o.gmb()
 if($.a85==null){o=new A.B3(n,new A.RT(A.z(t.S,t.lm)),o)
 n=$.by()
-if(n===B.F)p=p===B.ae
+if(n===B.E)p=p===B.ae
 else p=!1
 if(p)$.ac_().a0R()
 o.e=o.ON()
@@ -1610,7 +1610,7 @@ try{A.pt(r,a)
 A.ps(r,b)}catch(s){return null}return r},
 a7U(){var s,r=$.a7T
 if(r==null){r=$.by()
-s=$.a7T=r!==B.F&&"OffscreenCanvas" in self.window
+s=$.a7T=r!==B.E&&"OffscreenCanvas" in self.window
 r=s}return r},
 a5U(a){var s=a===B.eZ?"assertive":"polite",r=A.aH(self.document,"flt-announcement-"+s),q=r.style
 A.l(q,"position","fixed")
@@ -2018,7 +2018,7 @@ if(b){A.l(p,"top","-9999px")
 A.l(p,"left","-9999px")}if(d){A.l(p,"width","0")
 A.l(p,"height","0")}if(c)A.l(p,"pointer-events",q)
 s=$.by()
-if(s!==B.bd)s=s===B.F
+if(s!==B.bd)s=s===B.E
 else s=!0
 if(s)a.classList.add("transparentTextEditing")
 A.l(p,"caret-color",r)},
@@ -12688,24 +12688,24 @@ k=s.c
 j=s.d
 i=s.e
 h=s.f
-g=new A.aw(i,h).X(0,new A.aw(r,p)).eL(0,B.D)
+g=new A.aw(i,h).X(0,new A.aw(r,p)).eL(0,B.C)
 f=s.r
 e=s.w
-d=new A.aw(f,e).X(0,new A.aw(o,p)).eL(0,B.D)
+d=new A.aw(f,e).X(0,new A.aw(o,p)).eL(0,B.C)
 c=s.x
 b=s.y
-a=new A.aw(c,b).X(0,new A.aw(o,n)).eL(0,B.D)
+a=new A.aw(c,b).X(0,new A.aw(o,n)).eL(0,B.C)
 a0=s.z
 a1=s.Q
-a2=A.a8h(m+r,l+p,k-o,j-n,new A.aw(a0,a1).X(0,new A.aw(r,n)).eL(0,B.D),a,g,d)
+a2=A.a8h(m+r,l+p,k-o,j-n,new A.aw(a0,a1).X(0,new A.aw(r,n)).eL(0,B.C),a,g,d)
 d=a8.gkk()
 g=b2.gkk()
 a=a9.gkk()
 n=a6.gkk()
-h=new A.aw(i,h).S(0,new A.aw(d,g)).eL(0,B.D)
-e=new A.aw(f,e).S(0,new A.aw(a,g)).eL(0,B.D)
-b=new A.aw(c,b).S(0,new A.aw(a,n)).eL(0,B.D)
-a3.nc(A.a8h(m-d,l-g,k+a,j+n,new A.aw(a0,a1).S(0,new A.aw(d,n)).eL(0,B.D),b,h,e),a2,q)},
+h=new A.aw(i,h).S(0,new A.aw(d,g)).eL(0,B.C)
+e=new A.aw(f,e).S(0,new A.aw(a,g)).eL(0,B.C)
+b=new A.aw(c,b).S(0,new A.aw(a,n)).eL(0,B.C)
+a3.nc(A.a8h(m-d,l-g,k+a,j+n,new A.aw(a0,a1).S(0,new A.aw(d,n)).eL(0,B.C),b,h,e),a2,q)},
 a64(a,b,c){var s=b.gev()
 a.hE(b.gaA(),(s+c.b*c.d)/2,c.i_())},
 a66(a,b,c){a.c9(b.du(c.b*c.d/2),c.i_())},
@@ -19909,7 +19909,7 @@ n.save();++o.Q}o.Dc(s,m,o.c,o.b)},
 l6(){var s,r,q,p,o=this.x
 if(o!=null){for(s=o.length,r=0;r<o.length;o.length===s||(0,A.H)(o),++r){q=o[r]
 p=$.by()
-if(p===B.F){q.height=0
+if(p===B.E){q.height=0
 q.width=0}q.remove()}this.x=null}this.v8()},
 v8(){for(;this.Q!==0;){this.d.restore();--this.Q}},
 ao(a,b){this.MF(a,b)
@@ -19986,14 +19986,14 @@ else{p=p.a
 if(s===B.bu)A.Mt(p,null)
 else A.Mt(p,"evenodd")}},
 l(){var s=$.by()
-if(s===B.F&&this.y!=null){s=this.y
+if(s===B.E&&this.y!=null){s=this.y
 s.toString
 A.ps(s,0)
 A.pt(s,0)}this.Ou()},
 Ou(){var s,r,q,p,o=this.w
 if(o!=null)for(s=o.length,r=0;r<o.length;o.length===s||(0,A.H)(o),++r){q=o[r]
 p=$.by()
-if(p===B.F){q.height=0
+if(p===B.E){q.height=0
 q.width=0}q.remove()}this.w=null}}
 A.LK.prototype={
 sGo(a){if(a!==this.r){this.r=a
@@ -20022,7 +20022,7 @@ k.a.translate(b.a,b.b)}}else{q=A.bX(a.r)
 k.sGo(q)
 k.szy(q)}p=a.x
 s=$.by()
-if(!(s===B.F||!1)){if(!J.d(k.y,p)){k.y=p
+if(!(s===B.E||!1)){if(!J.d(k.y,p)){k.y=p
 A.a36(k.a,A.abg(p))}}else if(p!=null){s=k.a
 s.save()
 s.shadowBlur=p.b*2
@@ -20045,7 +20045,7 @@ A.a38(s,m-n[0])
 A.a39(s,l-n[1])}},
 hZ(){var s=this,r=s.z
 if((r==null?null:r.x)!=null){r=$.by()
-r=r===B.F||!1}else r=!1
+r=r===B.E||!1}else r=!1
 if(r)s.a.restore()
 r=s.Q
 if(r!=null){s.a.translate(-r.a,-r.b)
@@ -20720,7 +20720,7 @@ A.l(k,"transform-origin","0 0 0")}}if(b.x!=null){s=b.b
 j=A.bX(b.r)
 i=b.x.b
 p=$.by()
-if(p===B.F&&s!==B.Z)A.l(n.style,"box-shadow","0px 0px "+A.f(i*2)+"px "+j)
+if(p===B.E&&s!==B.Z)A.l(n.style,"box-shadow","0px 0px "+A.f(i*2)+"px "+j)
 else A.l(n.style,"filter","blur("+A.f(i)+"px)")}h.mc(n,B.k,b)}else{s=b.w!=null?a.e3():null
 p=h.d
 p.gbm().hm(b,s)
@@ -20735,7 +20735,7 @@ n.gap().save()
 q=n.gap()
 q.globalAlpha=(s>>>24&255)/255
 if(d){s=$.by()
-s=s!==B.F}else s=!1
+s=s!==B.E}else s=!1
 q=m.b
 p=m.a
 o=q.a
@@ -20890,7 +20890,7 @@ i.d.l6()
 s=i.b
 if(s!=null)s.Wh()
 if(i.at){s=$.by()
-s=s===B.F}else s=!1
+s=s===B.E}else s=!1
 if(s){s=i.c
 r=t.EB
 r=A.bq(new A.d3(s.children,r),r.j("q.E"),t.e)
@@ -23331,7 +23331,7 @@ gee(){return this.d},
 aS(){var s,r=this,q=r.bo()
 r.d=q
 s=$.by()
-if(s===B.F)A.l(q.style,"z-index","0")
+if(s===B.E)A.l(q.style,"z-index","0")
 r.d8()
 r.c=B.a9},
 mN(a){this.d=a.d
@@ -24279,7 +24279,7 @@ return this.b.bq(b,new A.RQ(this,b,"flt-pv-slot-"+b,a,c))},
 TR(a){var s,r,q
 if(a==null)return
 s=$.by()
-if(s!==B.F){a.remove()
+if(s!==B.E){a.remove()
 return}s=a.getAttribute("slot")
 r="tombstone-"+A.f(s==null?null:s)
 q=A.aH(self.document,"slot")
@@ -24405,7 +24405,7 @@ p*=o.gj_().b
 break
 case 0:o=$.cv()
 if(o===B.aO){o=$.by()
-if(o!==B.F)o=o===B.aV
+if(o!==B.E)o=o===B.aV
 else o=!0}else o=!1
 if(o){$.cF()
 o=$.bn()
@@ -25751,7 +25751,7 @@ gHm(){return this.b!=null},
 ru(a){var s,r,q,p,o,n,m,l,k,j,i=this
 if(i.b==null)return!0
 if(i.d){s=$.by()
-if(s!==B.F||a.type==="touchend"||a.type==="pointerup"||a.type==="click")i.l()
+if(s!==B.E||a.type==="touchend"||a.type==="pointerup"||a.type==="click")i.l()
 return!0}s=$.cH
 if((s==null?$.cH=A.hG():s).x)return!0
 if(++i.c>=20)return i.d=!0
@@ -25966,7 +25966,7 @@ if(s!=null)s.Vo(o)}else{s=self.document.activeElement
 r=o.e
 r.toString
 if(J.d(s,r)){s=$.by()
-if(s===B.F){s=$.cv()
+if(s===B.E){s=$.cv()
 s=s===B.ae}else s=!1
 if(!s){s=$.td
 if(s!=null)if(s.ch===o)s.ei()}o.e.blur()}}}p=o.e
@@ -25982,7 +25982,7 @@ s=r.f
 if(s!=null)s.aV()
 r.f=null
 s=$.by()
-if(s===B.F){s=$.cv()
+if(s===B.E){s=$.cv()
 s=s===B.ae}else s=!1
 if(!s){s=r.e
 if(s!=null)s.remove()}s=$.td
@@ -26364,7 +26364,7 @@ f=(f|4)===f?a3+"line-through ":a3
 if(e!=null)f+=A.f(A.ajT(e))
 a4=f.length===0?a9:f.charCodeAt(0)==0?f:f
 if(a4!=null){f=$.by()
-if(f===B.F){f=h.style
+if(f===B.E){f=h.style
 f.setProperty("-webkit-text-decoration",a4,"")}else b1.setProperty("text-decoration",a4,"")
 a5=g.c
 if(a5!=null){f=A.bX(a5.gm())
@@ -26881,10 +26881,10 @@ a=j.S6(a)
 s=j.a
 r=j.b-j.r
 q=r-s
-if(q===0)return new A.bk(s,B.H)
+if(q===0)return new A.bk(s,B.G)
 if(q===1){p=j.cD$
 p===$&&A.b()
-return a<p+j.cE$-a?new A.bk(s,B.H):new A.bk(r,B.av)}p=j.h6$
+return a<p+j.cE$-a?new A.bk(s,B.G):new A.bk(r,B.av)}p=j.h6$
 p===$&&A.b()
 p.sjA(j.f)
 o=j.h6$.Gx(s,r,!0,a)
@@ -26898,7 +26898,7 @@ p=j.h6$
 m=o+1
 k=p.a.c
 k===$&&A.b()
-if(a-l<A.jW(n,k,s,m,p.c.a.ax)-a)return new A.bk(o,B.H)
+if(a-l<A.jW(n,k,s,m,p.c.a.ax)-a)return new A.bk(o,B.G)
 else return new A.bk(m,B.av)},
 S6(a){var s
 if(this.d===B.R){s=this.cD$
@@ -27018,7 +27018,7 @@ for(s=this.y,p=s.length,o=0;o<s.length;s.length===p||(0,A.H)(s),++o){n=s[o]
 if(a<n.c&&n.b<b)for(m=n.w,l=m.length,k=0;k<m.length;m.length===l||(0,A.H)(m),++k){j=m[k]
 if(!j.ghO()&&a<j.b&&j.a<b)q.push(j.Iz(b,a))}}return q},
 er(a){var s,r,q,p,o,n,m,l=this.PG(a.b),k=a.a,j=l.a.r
-if(k<=j)return new A.bk(l.b,B.H)
+if(k<=j)return new A.bk(l.b,B.G)
 if(k>=j+l.r)return new A.bk(l.c-l.d,B.av)
 s=k-j
 for(k=l.w,j=k.length,r=0;r<j;++r){q=k[r]
@@ -27039,7 +27039,7 @@ if(m){if(o){n===$&&A.b()
 k=n}else{n===$&&A.b()
 k=q.cD$
 k===$&&A.b()
-k=p.a.f-(n+(k+q.cE$))}return q.Jg(s-k)}}return new A.bk(l.b,B.H)},
+k=p.a.f-(n+(k+q.cE$))}return q.Jg(s-k)}}return new A.bk(l.b,B.G)},
 PG(a){var s,r,q,p,o
 for(s=this.y,r=s.length,q=0;q<r;++q){p=s[q]
 o=p.a.e
@@ -27606,7 +27606,7 @@ F(){return"TextCapitalization."+this.b}}
 A.tC.prototype={
 zg(a){var s,r,q,p="sentences"
 switch(this.a.a){case 0:s=$.by()
-r=s===B.F?p:"words"
+r=s===B.E?p:"words"
 break
 case 2:r="characters"
 break
@@ -27744,7 +27744,7 @@ A.l(r,"text-shadow",o)
 A.l(r,"overflow","hidden")
 A.l(r,"transform-origin","0 0 0")
 q=$.by()
-if(q!==B.bd)q=q===B.F
+if(q!==B.bd)q=q===B.E
 else q=!0
 if(q)s.classList.add("transparentTextEditing")
 s=p.r
@@ -28197,10 +28197,10 @@ gew(){var s,r,q,p,o=this,n=null,m=o.f
 if(m===$){s=$.cH
 if((s==null?$.cH=A.hG():s).x){s=A.ahD(o)
 r=s}else{s=$.by()
-if(s===B.F){q=$.cv()
+if(s===B.E){q=$.cv()
 q=q===B.ae}else q=!1
 if(q)p=new A.OZ(o,A.a([],t.uK),$,$,$,n)
-else if(s===B.F)p=new A.BT(o,A.a([],t.uK),$,$,$,n)
+else if(s===B.E)p=new A.BT(o,A.a([],t.uK),$,$,$,n)
 else{if(s===B.bd){q=$.cv()
 q=q===B.ea}else q=!1
 if(q)p=new A.Kg(o,A.a([],t.uK),$,$,$,n)
@@ -40171,27 +40171,27 @@ return new A.uZ(s.gd5().X(0,a.gd5()),s.geE().X(0,a.geE()),s.gez().X(0,a.gez()),s
 D(a,b){var s=this
 return new A.uZ(s.gd5().S(0,b.gd5()),s.geE().S(0,b.geE()),s.gez().S(0,b.gez()),s.gf8().S(0,b.gf8()),s.gd6().S(0,b.gd6()),s.geD().S(0,b.geD()),s.gf9().S(0,b.gf9()),s.gey().S(0,b.gey()))},
 h(a){var s,r,q,p,o=this
-if(o.gd5().i(0,o.geE())&&o.geE().i(0,o.gez())&&o.gez().i(0,o.gf8()))if(!o.gd5().i(0,B.D))s=o.gd5().a===o.gd5().b?"BorderRadius.circular("+B.c.N(o.gd5().a,1)+")":"BorderRadius.all("+o.gd5().h(0)+")"
+if(o.gd5().i(0,o.geE())&&o.geE().i(0,o.gez())&&o.gez().i(0,o.gf8()))if(!o.gd5().i(0,B.C))s=o.gd5().a===o.gd5().b?"BorderRadius.circular("+B.c.N(o.gd5().a,1)+")":"BorderRadius.all("+o.gd5().h(0)+")"
 else s=null
 else{r=""+"BorderRadius.only("
-if(!o.gd5().i(0,B.D)){r+="topLeft: "+o.gd5().h(0)
+if(!o.gd5().i(0,B.C)){r+="topLeft: "+o.gd5().h(0)
 q=!0}else q=!1
-if(!o.geE().i(0,B.D)){if(q)r+=", "
+if(!o.geE().i(0,B.C)){if(q)r+=", "
 r+="topRight: "+o.geE().h(0)
-q=!0}if(!o.gez().i(0,B.D)){if(q)r+=", "
+q=!0}if(!o.gez().i(0,B.C)){if(q)r+=", "
 r+="bottomLeft: "+o.gez().h(0)
-q=!0}if(!o.gf8().i(0,B.D)){if(q)r+=", "
+q=!0}if(!o.gf8().i(0,B.C)){if(q)r+=", "
 r+="bottomRight: "+o.gf8().h(0)}r+=")"
-s=r.charCodeAt(0)==0?r:r}if(o.gd6().i(0,o.geD())&&o.geD().i(0,o.gey())&&o.gey().i(0,o.gf9()))if(!o.gd6().i(0,B.D))p=o.gd6().a===o.gd6().b?"BorderRadiusDirectional.circular("+B.c.N(o.gd6().a,1)+")":"BorderRadiusDirectional.all("+o.gd6().h(0)+")"
+s=r.charCodeAt(0)==0?r:r}if(o.gd6().i(0,o.geD())&&o.geD().i(0,o.gey())&&o.gey().i(0,o.gf9()))if(!o.gd6().i(0,B.C))p=o.gd6().a===o.gd6().b?"BorderRadiusDirectional.circular("+B.c.N(o.gd6().a,1)+")":"BorderRadiusDirectional.all("+o.gd6().h(0)+")"
 else p=null
 else{r=""+"BorderRadiusDirectional.only("
-if(!o.gd6().i(0,B.D)){r+="topStart: "+o.gd6().h(0)
+if(!o.gd6().i(0,B.C)){r+="topStart: "+o.gd6().h(0)
 q=!0}else q=!1
-if(!o.geD().i(0,B.D)){if(q)r+=", "
+if(!o.geD().i(0,B.C)){if(q)r+=", "
 r+="topEnd: "+o.geD().h(0)
-q=!0}if(!o.gf9().i(0,B.D)){if(q)r+=", "
+q=!0}if(!o.gf9().i(0,B.C)){if(q)r+=", "
 r+="bottomStart: "+o.gf9().h(0)
-q=!0}if(!o.gey().i(0,B.D)){if(q)r+=", "
+q=!0}if(!o.gey().i(0,B.C)){if(q)r+=", "
 r+="bottomEnd: "+o.gey().h(0)}r+=")"
 p=r.charCodeAt(0)==0?r:r}r=s!=null
 if(r&&p!=null)return A.f(s)+" + "+p
@@ -40210,12 +40210,12 @@ gd5(){return this.a},
 geE(){return this.b},
 gez(){return this.c},
 gf8(){return this.d},
-gd6(){return B.D},
-geD(){return B.D},
-gf9(){return B.D},
-gey(){return B.D},
-d0(a){var s=this,r=s.a.eL(0,B.D),q=s.b.eL(0,B.D)
-return A.Se(a,s.c.eL(0,B.D),s.d.eL(0,B.D),r,q)},
+gd6(){return B.C},
+geD(){return B.C},
+gf9(){return B.C},
+gey(){return B.C},
+d0(a){var s=this,r=s.a.eL(0,B.C),q=s.b.eL(0,B.C)
+return A.Se(a,s.c.eL(0,B.C),s.d.eL(0,B.C),r,q)},
 t4(a){if(a instanceof A.c3)return this.X(0,a)
 return this.Kf(a)},
 D(a,b){if(b instanceof A.c3)return this.S(0,b)
@@ -41719,7 +41719,7 @@ break $label0$0}s=null}return s}}
 A.Wf.prototype={
 F(){return"TextWidthBasis."+this.b}}
 A.D8.prototype={
-lN(a){return this.b.z6(new A.bk(Math.max(a,0),B.H))},
+lN(a){return this.b.z6(new A.bk(Math.max(a,0),B.G))},
 Oz(a){var s,r=this.a,q=r.hz(0,a)
 if(q==null)return null
 s=q&64512
@@ -42074,7 +42074,7 @@ s=a.b
 r=a.a
 q=b.a
 p=q+o.length
-if(!(q===r&&s===B.H))if(!(q<r&&r<p))o=p===r&&s===B.av
+if(!(q===r&&s===B.G))if(!(q<r&&r<p))o=p===r&&s===B.av
 else o=!0
 else o=!0
 if(o)return this
@@ -44479,7 +44479,7 @@ j=j?k:n
 h=A.J.prototype.gb0.call(a6)
 a9.rX(a6.cF)
 a9.xl(h.b,h.a)
-g=a9.yS(new A.tH(n,k,B.H,!1,i,j),B.it,B.f3)
+g=a9.yS(new A.tH(n,k,B.G,!1,i,j),B.it,B.f3)
 if(g.length===0)continue
 j=B.b.gM(g)
 f=new A.y(j.a,j.b,j.c,j.d)
@@ -44570,15 +44570,15 @@ if(b==null||c.e==null)return B.uu
 s=b.a
 r=c.e.a
 b=c.b
-q=b.oT(new A.bk(s,B.H))
-p=s===r?q:b.oT(new A.bk(r,B.H))
+q=b.oT(new A.bk(s,B.G))
+p=s===r?q:b.oT(new A.bk(r,B.G))
 o=b.K
 n=o.x
 n.toString
 m=s>r!==(B.R===n)
 l=A.qL(c.gd4().a,c.gd4().b,0)
 l.eg(l)
-k=A.CJ(B.H,s,r,!1)
+k=A.CJ(B.G,s,r,!1)
 j=A.a([],t.f8)
 for(b=b.rG(k),n=b.length,i=0;i<b.length;b.length===n||(0,A.H)(b),++i){h=b[i]
 j.push(new A.y(h.a,h.b,h.c,h.d))}b=A.c7(l,q)
@@ -44601,7 +44601,7 @@ s.f=!1
 r.sbu(B.d5)
 break
 case 3:o=s.a
-s.d=new A.bk(o.a,B.H)
+s.d=new A.bk(o.a,B.G)
 s.e=new A.bk(o.b,B.av)
 r.sbu(B.d5)
 break
@@ -44686,11 +44686,11 @@ if(s===p.b)return B.af
 if(s===p.a)return B.am
 return A.U7(h.gd4(),q)},
 tG(a){var s,r=a.a,q=this.a,p=q.b
-if(r<=p)s=r===p&&a.b===B.H
+if(r<=p)s=r===p&&a.b===B.G
 else s=!0
 if(s)return new A.bk(p,B.av)
 q=q.a
-if(r<q)return new A.bk(q,B.H)
+if(r<q)return new A.bk(q,B.G)
 return a},
 Rl(a){var s,r,q,p,o,n,m=this
 m.f=!0
@@ -44714,8 +44714,8 @@ r=A.aX("start")
 q=A.aX("end")
 o=a.a
 p=s.b
-if(o>p)r.b=q.b=new A.bk(o,B.H)
-else{r.b=new A.bk(s.a,B.H)
+if(o>p)r.b=q.b=new A.bk(o,B.G)
+else{r.b=new A.bk(s.a,B.G)
 q.b=new A.bk(p,B.av)}o=r.ad()
 return new A.H2(q.ad(),o)},
 Qt(a,b,c){var s,r,q,p,o,n,m,l=this,k=l.b,j=k.bc(null)
@@ -44745,7 +44745,7 @@ else l.d=p
 return o},
 QK(a,b,c){var s,r,q,p,o,n,m=this,l=m.e
 if(l==null){l=m.a
-l=a?new A.bk(l.a,B.H):new A.bk(l.b,B.av)
+l=a?new A.bk(l.a,B.G):new A.bk(l.b,B.av)
 m.e=l
 s=l}else s=l
 l=m.d
@@ -44785,7 +44785,7 @@ return p},
 uL(a,b,c){var s,r=a.a
 if(b){r=c.fI(r)
 s=r==null?this.a.b:r}else{r=c.fH(r-1)
-s=r==null?this.a.a:r}return new A.bk(s,B.H)},
+s=r==null?this.a.a:r}return new A.bk(s,B.G)},
 Sp(a,b,c){var s,r,q,p,o=this
 switch(a.b.a){case 0:s=a.a
 if(s<1&&!b)return B.HY
@@ -44798,12 +44798,12 @@ case 1:q=a.a
 break
 default:q=null}if(b){s=c.fI(q)
 p=s==null?o.a.b:s}else{s=c.fH(q)
-p=s==null?o.a.a:s}return new A.bk(p,B.H)},
+p=s==null?o.a.a:s}return new A.bk(p,B.G)},
 Rx(a,b,c){var s,r,q,p,o,n=this,m=n.b,l=m.K.w7(),k=m.o9(a,B.Q),j=l.length,i=j-1
 for(s=k.b,r=0;r<l.length;l.length===j||(0,A.H)(l),++r){q=l[r]
 if(q.gw_()>s){i=q.gHq()
 break}}if(b&&i===l.length-1)p=new A.bk(n.a.b,B.av)
-else if(!b&&i===0)p=new A.bk(n.a.a,B.H)
+else if(!b&&i===0)p=new A.bk(n.a.a,B.G)
 else p=n.tG(m.er(new A.t(c,l[b?i+1:i-1].gw_())))
 m=p.a
 j=n.a
@@ -44829,12 +44829,12 @@ gd4(){var s,r,q,p,o,n,m=this,l=m.y
 if(l==null){l=m.b
 s=m.a
 r=s.a
-q=l.rG(A.CJ(B.H,r,s.b,!1))
+q=l.rG(A.CJ(B.G,r,s.b,!1))
 if(q.length!==0){l=B.b.gM(q)
 p=new A.y(l.a,l.b,l.c,l.d)
 for(o=1;o<q.length;++o){l=q[o]
 p=p.l7(new A.y(l.a,l.b,l.c,l.d))}m.y=p
-l=p}else{n=l.oT(new A.bk(r,B.H))
+l=p}else{n=l.oT(new A.bk(r,B.G))
 l=A.a3V(n,new A.t(n.a+0,n.b+-l.K.grd()))
 m.y=l}}return l},
 gA(){var s=this.gd4()
@@ -44842,7 +44842,7 @@ return new A.K(s.c-s.a,s.d-s.b)},
 av(a,b){var s,r,q,p,o,n=this,m=n.d
 if(m==null||n.e==null)return
 s=n.b
-if(s.bM!=null){r=A.CJ(B.H,m.a,n.e.a,!1)
+if(s.bM!=null){r=A.CJ(B.G,m.a,n.e.a,!1)
 q=$.a8().b1()
 q.scM(B.aC)
 m=s.bM
@@ -46711,7 +46711,7 @@ r=s.k(0,"base")
 r.toString
 q=s.k(0,"extent")
 q.toString
-this.a.$1(A.CJ(B.H,r,q,!1))},
+this.a.$1(A.CJ(B.G,r,q,!1))},
 $S:7}
 A.Ug.prototype={
 $1(a){a.toString
@@ -47785,11 +47785,11 @@ if(s!==r.c)s=new A.d2(s,s+r.gB().length)
 else{q=p.fI(a)
 s=new A.d2(s,q==null?-1:q)}return s}}
 A.Q3.prototype={
-lN(a){var s=this.a,r=Math.max(a,0),q=s.b.K.b.a.a.J9(new A.bk(r,B.H))
+lN(a){var s=this.a,r=Math.max(a,0),q=s.b.K.b.a.a.J9(new A.bk(r,B.G))
 s=s.a
 r=s.a
 s=s.b
-return A.CJ(B.H,B.h.is(q.a,r,s),B.h.is(q.b,r,s),!1)}}
+return A.CJ(B.G,B.h.is(q.a,r,s),B.h.is(q.b,r,s),!1)}}
 A.Mq.prototype={
 fH(a){return a<0?null:0},
 fI(a){var s=this.a.length
@@ -47810,8 +47810,8 @@ else s=!1
 else s=!1
 return s},
 gt(a){var s,r=this
-if(!r.gjV())return A.F(-B.h.gt(1),-B.h.gt(1),A.f6(B.H),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
-s=r.a===r.b?A.f6(r.e):A.f6(B.H)
+if(!r.gjV())return A.F(-B.h.gt(1),-B.h.gt(1),A.f6(B.G),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
+s=r.a===r.b?A.f6(r.e):A.f6(B.G)
 return A.F(B.h.gt(r.c),B.h.gt(r.d),s,B.kb.gt(r.f),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.U5.prototype={
 F(){return"SelectionChangedCause."+this.b}}
@@ -57730,7 +57730,7 @@ h(a){return this.a+"_"+this.b.h(0)}}
 A.cf.prototype={
 It(){var s,r=B.Dp.k(0,this.a)
 if(r==null)r="Regular"
-s=this.b===B.B?"Italic":""
+s=this.b===B.A?"Italic":""
 if(r==="Regular")return s===""?r:s
 return r+s},
 h(a){var s,r=this.a.a,q=r===3,p=q?"":(r+1)*100
@@ -57874,35 +57874,35 @@ H(a){var s=A.aT(a,null,t.w).w.a
 return A.mp(A.lX(A.ab(A.mA("assets/images/activities/activities-main.jpeg",B.f0,5),s.b*0.75,s.a*0.999),B.bO))}}
 A.AC.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.011
-return A.ab(A.br(A.a([A.L("Explore the world of Urumbi and beyond",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.B)),A.ab(s,r.b*0.04,s),A.L("Discover fantastic trekking trails that unveil panoramic views, immersing you in the sights and sounds of local topography. Uncover private rainforest, a",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("hidden gem within the 16-acre property. Adjacent is a sprawling 50-acre cardamom plantation, offering treks to the origin of the stream gracing the property.",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("In vicinity, the renowned places of interest await exploration, accessible by trek routes, adrenaline-pumping 4x4 jeep safaris, and excursions by car.",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("Feelfree to let us know and we will be glad to arrange these activities for you.",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],t.p),B.w,B.aL),s,q*0.9)}}
+return A.ab(A.br(A.a([A.L("Explore the world of Urumbi and beyond",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.A)),A.ab(s,r.b*0.04,s),A.L("Discover fantastic trekking trails that unveil panoramic views, immersing you in the sights and sounds of local topography. Uncover private rainforest, a",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("hidden gem within the 16-acre property. Adjacent is a sprawling 50-acre cardamom plantation, offering treks to the origin of the stream gracing the property.",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("In vicinity, the renowned places of interest await exploration, accessible by trek routes, adrenaline-pumping 4x4 jeep safaris, and excursions by car.",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("Feelfree to let us know and we will be glad to arrange these activities for you.",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],t.p),B.w,B.aL),s,q*0.9)}}
 A.AD.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.02,o=q*0.011,n=r.b,m=n*0.07,l=t.p
-return A.ab(A.da(A.a([A.e4(s,s,B.v,s,s,B.wt,s,n*1.1,s,s,s,s,q*0.4),A.ab(s,s,q*0.1),A.br(A.a([A.L("4X4 Jeep Safari & Waterfalls",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Thrill-seekers, join the off-roading 4X4\njeep safari to Urumbi Twin Rocks for an\nadrenaline-pumping adventure through\nmountainous terrains and dense forests\nand Madammakkulem for a dip in a\nrefreshing natural pool beside a cascading\nwaterfall. immerse yourself in lush\nlandscapes with a nature walk, unveiling\nthe flora and fauna",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s),A.ab(s,m,s),A.L("High-range Trekking & Cycling",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Challenge your limits with high-range\ntrekking, earning panoramic views of\nUrumbi Twin Rocks and picturesque\nMadammakkularn. Explore Urumbi Hils\non a cycling adventure, offering a\nunique perspective. Get to experience\nthe magical ambiance of a serene\nlantern walk under the starlit sky.",A.W().$4$color$decoration$fontSize$fontWeight(B.f,B.d,o,B.i)),s),A.ab(s,m,s),A.L("Campfire & Barbecue",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Join the celebration around a crackling\ncampfire, singing, dancing, and enjoying\ndelectable barbecue. Cap off your day on\nthe 2000 sq ft infinity view open deck,\nmarvelling at celestial wonders of the\nnight sky, which offers panoramic views\nup to 150 km away during daytime.",A.W().$4$color$decoration$fontSize$fontWeight(B.f,B.d,o,B.i)),s)],l),B.T,B.aM)],l),B.w,B.J,B.U),s,q*0.9)}}
+return A.ab(A.da(A.a([A.e4(s,s,B.v,s,s,B.wt,s,n*1.1,s,s,s,s,q*0.4),A.ab(s,s,q*0.1),A.br(A.a([A.L("4X4 Jeep Safari & Waterfalls",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Thrill-seekers, join the off-roading 4X4\njeep safari to Urumbi Twin Rocks for an\nadrenaline-pumping adventure through\nmountainous terrains and dense forests\nand Madammakkulem for a dip in a\nrefreshing natural pool beside a cascading\nwaterfall. immerse yourself in lush\nlandscapes with a nature walk, unveiling\nthe flora and fauna",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s),A.ab(s,m,s),A.L("High-range Trekking & Cycling",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Challenge your limits with high-range\ntrekking, earning panoramic views of\nUrumbi Twin Rocks and picturesque\nMadammakkularn. Explore Urumbi Hils\non a cycling adventure, offering a\nunique perspective. Get to experience\nthe magical ambiance of a serene\nlantern walk under the starlit sky.",A.W().$4$color$decoration$fontSize$fontWeight(B.f,B.d,o,B.i)),s),A.ab(s,m,s),A.L("Campfire & Barbecue",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Join the celebration around a crackling\ncampfire, singing, dancing, and enjoying\ndelectable barbecue. Cap off your day on\nthe 2000 sq ft infinity view open deck,\nmarvelling at celestial wonders of the\nnight sky, which offers panoramic views\nup to 150 km away during daytime.",A.W().$4$color$decoration$fontSize$fontWeight(B.f,B.d,o,B.i)),s)],l),B.T,B.aM)],l),B.w,B.J,B.U),s,q*0.9)}}
 A.AE.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.9,o=r.b,n=o*0.01
-return A.ab(A.br(A.a([A.L("Local Excursions",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.B)),A.ab(s,n,s),A.L("Nestled in the picturesque landscape of Urumbikkare, Nature Sanctuary offers easy access to nearby points of interest, creating an idool base for your adventures. Uncover the beauty of the Western Ghats, discover hidden wonders, and indulge in a rejuvenating escape within the heart of nature.",A.W().$3$color$fontSize$fontStyle(B.f,q*0.011,B.l)),A.ab(s,n,s),A.e4(s,s,B.v,s,s,B.wu,s,o*0.8,s,s,s,s,p)],t.p),B.T,B.J),s,p)}}
+return A.ab(A.br(A.a([A.L("Local Excursions",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.A)),A.ab(s,n,s),A.L("Nestled in the picturesque landscape of Urumbikkare, Nature Sanctuary offers easy access to nearby points of interest, creating an idool base for your adventures. Uncover the beauty of the Western Ghats, discover hidden wonders, and indulge in a rejuvenating escape within the heart of nature.",A.W().$3$color$fontSize$fontStyle(B.f,q*0.011,B.l)),A.ab(s,n,s),A.e4(s,s,B.v,s,s,B.wu,s,o*0.8,s,s,s,s,p)],t.p),B.T,B.J),s,p)}}
 A.AF.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.017,o=q*0.011,n=t.p
-return A.ab(A.br(A.a([A.da(A.a([A.br(A.a([A.L("Vellappara Waterfalls",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Discover the hidden gem of Vellappara\nWaterfalis (6 km), natural spectacle\n within a private plantation property.\nAccessible through a non-paved trail, it's\nbest enjoyed on foot, the falls cascade\nfrom a height of 300 to 400 feet.\nWembly Waterfalls is just 10 minutes away",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.aL),A.br(A.a([A.L("Pappani Waterfalls",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Explore the five captivating viewpoints\noffering unique perspectives of th\n majestic Pappani Waterfalls, a visual feast\nfor nature enthusiasts. While the climb may\nbe strenuous, the reward is\n380-degree view of the misty valley,\nsurrounded by lush greenery.",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.aL),A.br(A.a([A.L("Tea Factory and\nInspection Bungalow",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Step into the regionis rich history as you\nexplore the colonial-era fea Factory and\nInspection Bungalow. Discover the archaic\nLes factory and learn the fascinsting story\nbehind the bungalow, built for British\nOfficer McPherson, whose inspection was\ncrucial for tea export during the time",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.aL)],n),B.w,B.aM,B.U),A.ab(s,r.b*0.1,s),A.da(A.a([new A.aG(B.fw,A.br(A.a([A.L("St. George CSI Church,\nPallikkunnu",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Find spiritual serenity at the St. George CSl\nChurch, (31 km) a sacred\nGothic-style sanctuary built by the British in\nThe elegant church is adorned with\nglass-cut windows and antique furniture,\nand has a cemetery with European tombstones\nincluding that of plenter John Munro",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.z,1.5)),s)],n),B.T,B.J),s),new A.aG(B.fw,A.br(A.a([A.L("Hill Stations",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Embark to the scenic hill stations of\nVagamon (44 am) Kuttikkanam (23 km)\n Panchaimedu (38 km), and the serene\nMuthukora Mala in Poonjar (17 km) Immerse\nyourself in the lush greenery of the Western\nGhats, where each hill station unfolds a\nunique collection of fiora and ",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.z,1.5)),s)],n),B.T,B.J),s),new A.aG(B.fw,A.br(A.a([A.L("Murphy's Tomb",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.B,B.i)),new A.aG(B.aH,A.L("Pay homage to the pioneering Irish planter,\nJohn Joseph Murphy at\nMathu Mala in his cherished Yendayar\nEstate, tribute to his enduring legacy and\ncontributions to the region.",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.z,1.5)),s)],n),B.T,B.J),s)],n),B.w,B.aM,B.U)],n),B.w,B.J),s,q*0.9)}}
+return A.ab(A.br(A.a([A.da(A.a([A.br(A.a([A.L("Vellappara Waterfalls",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Discover the hidden gem of Vellappara\nWaterfalis (6 km), natural spectacle\n within a private plantation property.\nAccessible through a non-paved trail, it's\nbest enjoyed on foot, the falls cascade\nfrom a height of 300 to 400 feet.\nWembly Waterfalls is just 10 minutes away",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.aL),A.br(A.a([A.L("Pappani Waterfalls",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Explore the five captivating viewpoints\noffering unique perspectives of th\n majestic Pappani Waterfalls, a visual feast\nfor nature enthusiasts. While the climb may\nbe strenuous, the reward is\n380-degree view of the misty valley,\nsurrounded by lush greenery.",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.aL),A.br(A.a([A.L("Tea Factory and\nInspection Bungalow",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Step into the regionis rich history as you\nexplore the colonial-era fea Factory and\nInspection Bungalow. Discover the archaic\nLes factory and learn the fascinsting story\nbehind the bungalow, built for British\nOfficer McPherson, whose inspection was\ncrucial for tea export during the time",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.aL)],n),B.w,B.aM,B.U),A.ab(s,r.b*0.1,s),A.da(A.a([new A.aG(B.fw,A.br(A.a([A.L("St. George CSI Church,\nPallikkunnu",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Find spiritual serenity at the St. George CSl\nChurch, (31 km) a sacred\nGothic-style sanctuary built by the British in\nThe elegant church is adorned with\nglass-cut windows and antique furniture,\nand has a cemetery with European tombstones\nincluding that of plenter John Munro",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.J),s),new A.aG(B.fw,A.br(A.a([A.L("Hill Stations",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Embark to the scenic hill stations of\nVagamon (44 am) Kuttikkanam (23 km)\n Panchaimedu (38 km), and the serene\nMuthukora Mala in Poonjar (17 km) Immerse\nyourself in the lush greenery of the Western\nGhats, where each hill station unfolds a\nunique collection of fiora and ",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.J),s),new A.aG(B.fw,A.br(A.a([A.L("Murphy's Tomb",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.L,B.d,p,B.A,B.i)),new A.aG(B.aH,A.L("Pay homage to the pioneering Irish planter,\nJohn Joseph Murphy at\nMathu Mala in his cherished Yendayar\nEstate, tribute to his enduring legacy and\ncontributions to the region.",A.W().$5$color$decoration$fontSize$fontWeight$height(B.f,B.d,o,B.i,1.5)),s)],n),B.T,B.J),s)],n),B.w,B.aM,B.U)],n),B.w,B.J),s,q*0.9)}}
 A.AI.prototype={
 H(a){var s=null,r=t.w,q=A.aT(a,s,r).w.a.b*0.1
 return A.br(A.a([B.Eq,B.Er,A.ab(s,q,s),B.Es,A.ab(s,q,s),B.Et,B.Eu,A.ab(s,A.aT(a,s,r).w.a.b*0.1,s)],t.p),B.w,B.J)}}
 A.AJ.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.025
-return A.mp(A.lX(A.e4(s,A.br(A.a([new A.aG(B.aH,A.mp(A.lX(A.L("WELCOME  TO  NATURE  SANCTUARY",A.W().$5$color$decoration$fontSize$fontWeight$letterSpacing(B.j,B.d,p,B.cq,5)),B.zj)),s),A.mp(A.lX(A.L("Where nature takes center stage",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.j,B.d,p,B.B,B.b7)),B.zk))],t.p),B.w,B.aL),B.v,s,s,B.wr,s,r.b*0.75,s,s,s,s,q*0.99),B.bO))}}
+return A.mp(A.lX(A.e4(s,A.br(A.a([new A.aG(B.aH,A.mp(A.lX(A.L("WELCOME  TO  NATURE  SANCTUARY",A.W().$5$color$decoration$fontSize$fontWeight$letterSpacing(B.j,B.d,p,B.cq,5)),B.zj)),s),A.mp(A.lX(A.L("Where nature takes center stage",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.j,B.d,p,B.A,B.b7)),B.zk))],t.p),B.w,B.aL),B.v,s,s,B.wr,s,r.b*0.75,s,s,s,s,q*0.99),B.bO))}}
 A.AK.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.0135,o=q*0.011,n=r.b,m=n*0.1
 n*=0.05
 return A.fC(A.ab(A.br(A.a([A.ab(s,m,s),A.L("Nestled in the mist-kissed hills of Urumbikkara,Kerala,Nature Sancturary is a 7000 sq ft",A.W().$3$color$fontSize$fontWeight(B.L,p,B.bi)),new A.aG(B.jO,A.L("wilderness retreat  steeped in the British colonial legacy. More than 1000 years old, the restored plantation",A.W().$3$color$fontSize$fontWeight(B.L,p,B.bi)),s),new A.aG(B.jO,A.L("bungalow seemlesly blend old-world charm with modern comforts.",A.W().$3$color$fontSize$fontWeight(B.L,p,B.bi)),s),A.ab(s,n,s),A.L("Perched 2500 ft above sea level, Nature Sanctuary is an intimate escape from modernity's fast lane. Ascend a winding road through the",A.W().$3$color$fontSize$fontWeight(B.f,o,B.i)),new A.aG(B.a5,A.L("stunning topography of Western Ghats in Idukki district, as countless waterfalls and panoramas reveal themselves. Gaze uponclouds drifting",A.W().$3$color$fontSize$fontWeight(B.f,o,B.i)),s),new A.aG(B.a5,A.L("above plantations of cardamom, pepper vanilla, and tea.",A.W().$3$color$fontSize$fontWeight(B.f,o,B.i)),s),A.ab(s,n,s),A.L("With 180 days of rainfall, the property transforms into nature's amphitheatre, hosting a captivating ballet on misty afternoons.",A.W().$3$color$fontSize$fontWeight(B.f,o,B.i)),new A.aG(B.a5,A.L("Explore hidden streams and luxiriate in natural swimming pools in the 16-acre estate. Ignite your adventurous spirit with jeep safaris, soft",A.W().$3$color$fontSize$fontWeight(B.f,o,B.i)),s),new A.aG(B.a5,A.L("treks, and nature walks. At nigthfall, let the warmth of fireplaces and campfires envelope you at Nature Sanctuary.",A.W().$3$color$fontSize$fontWeight(B.f,o,B.i)),s),A.ab(s,m,s),B.zc],t.p),B.w,B.aL),s,q*0.8),s,s)}}
 A.AL.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.011,o=r.b,n=t.p,m=p+0.01
-return A.fC(A.ab(A.br(A.a([A.da(A.a([A.br(A.a([A.L("Step into the past",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.B)),A.ab(s,o*0.04,s),A.L("Embark on a journey through time at Nature Sanctuary, where you'll be transported to the",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("British colonial era of the early 1900s. One of five meticulously designed residences in",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("Travancore, crafted  by Irish planters John Joseph Murphy and McPherson, and",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("commissioned by Raman Kankani, a labour supply to plantations, this exquisite",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("planter's bunbalow is a testament to the periods architctural elegance",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],n),B.T,B.J),new A.aG(B.zo,A.ab(A.mA("assets/images/home_images/clock.jpg",s,s),o*0.45,q*0.27),s)],n),B.w,B.J,B.U),A.da(A.a([A.br(A.a([A.a6b(B.hb,q*0.08),new A.aG(B.zp,A.L("Vallat K. Raman",A.abn().$4$color$fontSize$fontStyle$fontWeight(B.L,m,B.l,B.G)),s),new A.aG(B.b6,A.L("(1884-1953)",A.abn().$4$color$fontSize$fontStyle$fontWeight(B.L,m,B.l,B.G)),s)],n),B.w,B.aL),new A.aG(B.zu,A.br(A.a([A.L("Vallat K. Raman, widely remembered as Raman Kankani, was born into the Vallattu family in",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("Mavelikkara. He began his journey at Travancore Rubber & Tea Co Ltd estate at 16, ascending",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("from an office role to the primary labour contractor for British/irish plantations. Acquiring ",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("3000 acres in Urumbikkara from Vanjippuzha Thampuran (which houses Nature Sanctuary)",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("he left a lasting legacy, including the Paloor Valley Estate in Mundakkayam and Uttamabagh",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L(" Estate in Thonnakkal",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],n),B.T,B.J),s)],n),B.w,B.J,B.U)],n),B.w,B.J),s,q*0.8),s,s)}}
+return A.fC(A.ab(A.br(A.a([A.da(A.a([A.br(A.a([A.L("Step into the past",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.A)),A.ab(s,o*0.04,s),A.L("Embark on a journey through time at Nature Sanctuary, where you'll be transported to the",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("British colonial era of the early 1900s. One of five meticulously designed residences in",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("Travancore, crafted  by Irish planters John Joseph Murphy and McPherson, and",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("commissioned by Raman Kankani, a labour supply to plantations, this exquisite",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("planter's bunbalow is a testament to the periods architctural elegance",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],n),B.T,B.J),new A.aG(B.zo,A.ab(A.mA("assets/images/home_images/clock.jpg",s,s),o*0.45,q*0.27),s)],n),B.w,B.J,B.U),A.da(A.a([A.br(A.a([A.a6b(B.hb,q*0.08),new A.aG(B.zp,A.L("Vallat K. Raman",A.abn().$4$color$fontSize$fontStyle$fontWeight(B.L,m,B.l,B.F)),s),new A.aG(B.b6,A.L("(1884-1953)",A.abn().$4$color$fontSize$fontStyle$fontWeight(B.L,m,B.l,B.F)),s)],n),B.w,B.aL),new A.aG(B.zu,A.br(A.a([A.L("Vallat K. Raman, widely remembered as Raman Kankani, was born into the Vallattu family in",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("Mavelikkara. He began his journey at Travancore Rubber & Tea Co Ltd estate at 16, ascending",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("from an office role to the primary labour contractor for British/irish plantations. Acquiring ",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("3000 acres in Urumbikkara from Vanjippuzha Thampuran (which houses Nature Sanctuary)",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("he left a lasting legacy, including the Paloor Valley Estate in Mundakkayam and Uttamabagh",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L(" Estate in Thonnakkal",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],n),B.T,B.J),s)],n),B.w,B.J,B.U)],n),B.w,B.J),s,q*0.8),s,s)}}
 A.AM.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a
-return A.e4(s,A.fC(A.ab(A.br(A.a([A.L("Reconnect with nature",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.j,B.d,q*0.035,B.B,B.i)),A.L("Nestled in lush greenery,Nature Sanctuary is a rejuvenating back-to-nature\nexperience far from the madding crowds.Two natural streams gracefully meander\nthrough the property-the soft,meditattive gurgle of water at once relaxing.Also,\nyou'll find seasonal swimming pools in the premises during the monsoon and \nwaterfalls elsewhere in the vicinit.The sighliness of Nature Sanctuary are replete\nwith vistas of mist-kissed afternoons and gentle rains.",A.W().$5$color$decoration$fontSize$fontWeight$height(B.j,B.d,q*0.011,B.i,1.8))],t.p),B.T,B.aL),s,q*0.8),s,s),B.v,s,s,B.wq,s,r.b*0.7,s,s,s,s,q*0.99)}}
+return A.e4(s,A.fC(A.ab(A.br(A.a([A.L("Reconnect with nature",A.cV().$5$color$decoration$fontSize$fontStyle$fontWeight(B.j,B.d,q*0.035,B.A,B.i)),A.L("Nestled in lush greenery,Nature Sanctuary is a rejuvenating back-to-nature\nexperience far from the madding crowds.Two natural streams gracefully meander\nthrough the property-the soft,meditattive gurgle of water at once relaxing.Also,\nyou'll find seasonal swimming pools in the premises during the monsoon and \nwaterfalls elsewhere in the vicinit.The sighliness of Nature Sanctuary are replete\nwith vistas of mist-kissed afternoons and gentle rains.",A.W().$5$color$decoration$fontSize$fontWeight$height(B.j,B.d,q*0.011,B.i,1.8))],t.p),B.T,B.aL),s,q*0.8),s,s),B.v,s,s,B.wq,s,r.b*0.7,s,s,s,s,q*0.99)}}
 A.AN.prototype={
 H(a){var s=null,r=new A.dV(0,$.av()),q=A.aT(a,s,t.w).w.a,p=q.a,o=[B.HQ,B.HP,B.HO,B.HN],n=p*0.03,m=t.p
-return A.br(A.a([A.L("Testimonials",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,p*0.04,B.B,B.b7)),A.ab(s,q.b*0.08,s),A.ab(A.br(A.a([A.da(A.a([A.fC(A.a7b(A.a7a(B.zL,B.hb,n),new A.Rx(r)),s,s),A.a4j(new A.Ry(o,q),r,t.S),A.fC(A.a7b(A.a7a(B.zM,B.hb,n),new A.Rz(r,o)),s,s)],m),B.w,B.Df,B.U)],m),B.w,B.J),s,p*0.8)],m),B.w,B.J)}}
+return A.br(A.a([A.L("Testimonials",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,p*0.04,B.A,B.b7)),A.ab(s,q.b*0.08,s),A.ab(A.br(A.a([A.da(A.a([A.fC(A.a7b(A.a7a(B.zL,B.hb,n),new A.Rx(r)),s,s),A.a4j(new A.Ry(o,q),r,t.S),A.fC(A.a7b(A.a7a(B.zM,B.hb,n),new A.Rz(r,o)),s,s)],m),B.w,B.Df,B.U)],m),B.w,B.J),s,p*0.8)],m),B.w,B.J)}}
 A.Rx.prototype={
 $0(){var s=this.a
 if(!J.d(s.a,0))s.sm(s.a-2)},
@@ -57922,7 +57922,7 @@ m=A.a6b(B.f,m)
 s=n*0.01
 r=A.ab(p,p,s)
 q=t.p
-s=A.da(A.a([m,r,A.L(this.d,A.W().$3$color$fontSize$fontWeight(B.f,s,B.G))],q),B.w,B.J,B.U)
+s=A.da(A.a([m,r,A.L(this.d,A.W().$3$color$fontSize$fontWeight(B.f,s,B.F))],q),B.w,B.J,B.U)
 r=A.ab(p,k,p)
 return A.mp(A.lX(A.mo(A.e4(p,A.br(A.a([l,j,s,r,A.L(this.e,A.W().$3$color$fontSize$fontWeight(B.f,n*0.008,B.i)),A.ab(p,k,p),B.FD],q),B.T,B.J),B.v,p,p,p,p,p,p,p,p,p,p),1,p),p))}}
 A.AO.prototype={
@@ -57933,19 +57933,19 @@ H(a){var s=null,r=A.aT(a,s,t.w).w.a
 return A.mp(A.lX(A.e4(s,s,B.v,s,s,B.ws,s,r.b*0.75,s,s,s,s,r.a*0.99),B.dy))}}
 A.AQ.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.011
-return A.ab(A.br(A.a([A.L("Living",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.B)),A.ab(s,r.b*0.04,s),A.L("Experiance a harmonious lifestyle at Nature Sanctuary saamiasaly melding comfort, sustainability, and immersive living. Choose from our curated selection of",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("designer Suite Premium Rooms, and Pool View Rooms (close to seasonal streams) each featuring antique furniture that evoke the charm of a bygone",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("era. Some rooms feature working freplaces, and all rooms offer private entries while well-appointed bathrooms pamper you with premium amenities ",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],t.p),B.w,B.J),s,q*0.9)}}
+return A.ab(A.br(A.a([A.L("Living",A.cV().$3$color$fontSize$fontStyle(B.L,q*0.04,B.A)),A.ab(s,r.b*0.04,s),A.L("Experiance a harmonious lifestyle at Nature Sanctuary saamiasaly melding comfort, sustainability, and immersive living. Choose from our curated selection of",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),new A.aG(B.a5,A.L("designer Suite Premium Rooms, and Pool View Rooms (close to seasonal streams) each featuring antique furniture that evoke the charm of a bygone",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s),new A.aG(B.a5,A.L("era. Some rooms feature working freplaces, and all rooms offer private entries while well-appointed bathrooms pamper you with premium amenities ",A.W().$3$color$fontSize$fontStyle(B.f,p,B.l)),s)],t.p),B.w,B.J),s,q*0.9)}}
 A.AR.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=q*0.015,o=q*0.011,n=r.b,m=n*0.03,l=t.p
-return A.ab(A.da(A.a([A.mo(A.br(A.a([A.L("Suite Rooms",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,q*0.04,B.B,B.G)),A.ab(s,n*0.05,s),A.L("CARNATION SUITE",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.G)),A.L("A spacious 700 aq ft of striking opulence, reflecting the",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("dignified and regality of its floral muse",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.ab(s,m,s),A.L("DAFFODIL SUITE",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.G)),A.L("A 700 sq ft room, encapsulating the positivity and beauty",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("the daffodil melding comfort and grandeur.",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.ab(s,m,s),A.L("GERANIUM SUITE",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.G)),A.L("700 sq ft oasis of sophistication, embodying the geranium's",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L(u.u,A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.ab(s,m,s),A.L("Common Suite Facilities",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.G)),A.L("Living/Sitting Room | Carved Fosture Bed & Bed Bench",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("Desing Room 2011 gh wooden ceiling",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("Verandah Access TV | Kattle WIF",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l))],l),B.T,B.J),1,s),A.e4(s,A.mA("assets/images/living/living-bed.jpeg",B.f1,s),B.v,B.f,s,s,s,n*0.75,s,s,s,s,q*0.4)],l),B.T,B.J,B.U),s,q*0.8)}}
+return A.ab(A.da(A.a([A.mo(A.br(A.a([A.L("Suite Rooms",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,q*0.04,B.A,B.F)),A.ab(s,n*0.05,s),A.L("CARNATION SUITE",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.F)),A.L("A spacious 700 aq ft of striking opulence, reflecting the",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("dignified and regality of its floral muse",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.ab(s,m,s),A.L("DAFFODIL SUITE",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.F)),A.L("A 700 sq ft room, encapsulating the positivity and beauty",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("the daffodil melding comfort and grandeur.",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.ab(s,m,s),A.L("GERANIUM SUITE",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.F)),A.L("700 sq ft oasis of sophistication, embodying the geranium's",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L(u.u,A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.ab(s,m,s),A.L("Common Suite Facilities",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,p,B.l,B.F)),A.L("Living/Sitting Room | Carved Fosture Bed & Bed Bench",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("Desing Room 2011 gh wooden ceiling",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l)),A.L("Verandah Access TV | Kattle WIF",A.W().$3$color$fontSize$fontStyle(B.f,o,B.l))],l),B.T,B.J),1,s),A.e4(s,A.mA("assets/images/living/living-bed.jpeg",B.f1,s),B.v,B.f,s,s,s,n*0.75,s,s,s,s,q*0.4)],l),B.T,B.J,B.U),s,q*0.8)}}
 A.AS.prototype={
 H(a){var s=null,r="Room Facilities",q="Living/Sitting Area Moclern Posture Bed & Bed Bench Fireplace",p=" Wirenden Ac TV Kettle WIFI",o=A.aT(a,s,t.w).w.a,n=o.a,m=n*0.02,l=n*0.011,k=o.b,j=k*0.03,i=t.p
-return A.ab(A.da(A.a([A.e4(s,A.mA("assets/images/living/3 chair.jpg",B.f0,s),B.v,B.f,s,s,s,k*0.75,s,s,s,s,n*0.4),A.br(A.a([A.L("Premium Rooms",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,n*0.04,B.B,B.G)),A.ab(s,k*0.05,s),A.L("LAVENDER CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,m,B.l,B.G)),A.L("A 450 sq ft room with a lofty 20 ft ceiling, manifesting the ",A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L("lavender's connection to nobility and exquisite comfort.",A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.ab(s,j,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,l,B.l,B.G)),A.L(q,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L(p,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.ab(s,j,s),A.L("ROSEMARY CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,m,B.l,B.G)),A.L("A 400 sq ft sanctuary, resonating with an association with ",A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L(u.u,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.ab(s,j,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,l,B.l,B.G)),A.L(q,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L(p,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l))],i),B.T,B.aM)],i),B.w,B.aM,B.U),s,n*0.8)}}
+return A.ab(A.da(A.a([A.e4(s,A.mA("assets/images/living/3 chair.jpg",B.f0,s),B.v,B.f,s,s,s,k*0.75,s,s,s,s,n*0.4),A.br(A.a([A.L("Premium Rooms",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,n*0.04,B.A,B.F)),A.ab(s,k*0.05,s),A.L("LAVENDER CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,m,B.l,B.F)),A.L("A 450 sq ft room with a lofty 20 ft ceiling, manifesting the ",A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L("lavender's connection to nobility and exquisite comfort.",A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.ab(s,j,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,l,B.l,B.F)),A.L(q,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L(p,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.ab(s,j,s),A.L("ROSEMARY CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,m,B.l,B.F)),A.L("A 400 sq ft sanctuary, resonating with an association with ",A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L(u.u,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.ab(s,j,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,l,B.l,B.F)),A.L(q,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l)),A.L(p,A.W().$3$color$fontSize$fontStyle(B.f,l,B.l))],i),B.T,B.aM)],i),B.w,B.aM,B.U),s,n*0.8)}}
 A.AT.prototype={
 H(a){var s=null,r="Room Facilities",q=A.aT(a,s,t.w).w.a,p=q.a,o=p*0.02,n=p*0.011,m=q.b,l=m*0.03,k=t.p
-return A.ab(A.da(A.a([A.mo(A.br(A.a([A.L("Pool View Rooms",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,p*0.04,B.B,B.G)),A.ab(s,m*0.05,s),A.L("LOTUS CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,o,B.l,B.G)),A.L("A 325 sq ft room representing the symbolism of purity,close ",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("to a seasonal stream with whispers of gurgling water.",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.ab(s,l,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,n,B.l,B.G)),A.L("Private Pool View Verandah | Modern Posture Bed & Bed Bench",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("Fireplace TV | Kettle WiFi",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.ab(s,l,s),A.L("WATERLILY CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,o,B.l,B.G)),A.L("A 275 sq ft room with proximity to monsoon pools, where you",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("connect with the waterlily's grace and the hum of flowing water.",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.ab(s,l,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,n,B.l,B.G)),A.L("Private Pool View Verandah Modern Posture Bed & Bed Bench",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("TV | Kettle WiFi",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l))],k),B.T,B.aM),1,s),A.e4(s,A.mA("assets/images/living/couch.jpeg",B.f1,s),B.v,B.f,s,s,s,m*0.75,s,s,s,s,p*0.4)],k),B.w,B.J,B.U),s,p*0.8)}}
+return A.ab(A.da(A.a([A.mo(A.br(A.a([A.L("Pool View Rooms",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,p*0.04,B.A,B.F)),A.ab(s,m*0.05,s),A.L("LOTUS CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,o,B.l,B.F)),A.L("A 325 sq ft room representing the symbolism of purity,close ",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("to a seasonal stream with whispers of gurgling water.",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.ab(s,l,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,n,B.l,B.F)),A.L("Private Pool View Verandah | Modern Posture Bed & Bed Bench",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("Fireplace TV | Kettle WiFi",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.ab(s,l,s),A.L("WATERLILY CHAMBER",A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,o,B.l,B.F)),A.L("A 275 sq ft room with proximity to monsoon pools, where you",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("connect with the waterlily's grace and the hum of flowing water.",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.ab(s,l,s),A.L(r,A.W().$4$color$fontSize$fontStyle$fontWeight(B.f,n,B.l,B.F)),A.L("Private Pool View Verandah Modern Posture Bed & Bed Bench",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l)),A.L("TV | Kettle WiFi",A.W().$3$color$fontSize$fontStyle(B.f,n,B.l))],k),B.T,B.aM),1,s),A.e4(s,A.mA("assets/images/living/couch.jpeg",B.f1,s),B.v,B.f,s,s,s,m*0.75,s,s,s,s,p*0.4)],k),B.w,B.J,B.U),s,p*0.8)}}
 A.AU.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.a,p=r.b,o=t.p
-return A.e4(s,A.fC(A.ab(A.da(A.a([A.mo(A.br(A.a([A.L("Culinary Experience",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,q*0.04,B.B,B.G)),A.ab(s,p*0.01,s),A.L("Crafted by seasoned chefs, the Nature Sanctuary's\nmenu seamlessly blends local and global flavours.\ncelebrating Kerala's spices, continental classics,\nand diverse global delights. Inspired by the\nculinary traditions of Kottayam, Pala, and the\nhighranges-strongholds of the Syrian Christian\ncommunity in Kerala-the menu blends original Syrian\ntechniques with local influences. The 1800 sq ft open\npatio transforms into a versatile space for dining,\ncampfires, and open grillis.",A.W().$3$color$fontSize$fontStyle(B.f,q*0.011,B.l))],o),B.T,B.J),1,s),A.ab(s,s,q*0.006),A.mo(A.mA("assets/images/living/appom.jpeg",s,s),1,s)],o),B.w,B.aM,B.U),p*0.6,q*0.8),s,s),B.v,B.yE,s,s,s,p*0.7,s,s,s,s,q*0.999)}}
+return A.e4(s,A.fC(A.ab(A.da(A.a([A.mo(A.br(A.a([A.L("Culinary Experience",A.cV().$4$color$fontSize$fontStyle$fontWeight(B.L,q*0.04,B.A,B.F)),A.ab(s,p*0.01,s),A.L("Crafted by seasoned chefs, the Nature Sanctuary's\nmenu seamlessly blends local and global flavours.\ncelebrating Kerala's spices, continental classics,\nand diverse global delights. Inspired by the\nculinary traditions of Kottayam, Pala, and the\nhighranges-strongholds of the Syrian Christian\ncommunity in Kerala-the menu blends original Syrian\ntechniques with local influences. The 1800 sq ft open\npatio transforms into a versatile space for dining,\ncampfires, and open grillis.",A.W().$3$color$fontSize$fontStyle(B.f,q*0.011,B.l))],o),B.T,B.J),1,s),A.ab(s,s,q*0.006),A.mo(A.mA("assets/images/living/appom.jpeg",s,s),1,s)],o),B.w,B.aM,B.U),p*0.6,q*0.8),s,s),B.v,B.yE,s,s,s,p*0.7,s,s,s,s,q*0.999)}}
 A.AV.prototype={
 H(a){return new A.n9(new A.Cg(A.br(A.a([B.Eo,A.a4j(new A.RA([B.Ev,B.EC,B.En]),$.x2(),t.S),B.Ep],t.p),B.w,B.J),null),B.j,null)}}
 A.RA.prototype={
@@ -57955,7 +57955,7 @@ A.ht.prototype={
 H(a){return A.a4j(new A.Kn(this,A.aT(a,null,t.w).w.a),$.x2(),t.S)}}
 A.Kn.prototype={
 $3(a,b,c){var s=null,r=this.a,q=r.d,p=J.d($.x2().a,q)?B.L:B.jn
-q=J.d($.x2().a,q)?B.G:B.i
+q=J.d($.x2().a,q)?B.F:B.i
 return new A.hs(B.vM,s,s,new A.CF(new A.Km(r),s,s,s,s,B.v,s,!1,s,!0,A.mp(A.lX(A.L(r.c,A.W().$3$color$fontSize$fontWeight(p,this.b.a*0.012,q)),s)),s),s)},
 $S:378}
 A.Km.prototype={
@@ -57965,7 +57965,7 @@ A.AG.prototype={
 H(a){var s=null,r=A.aT(a,s,t.w).w.a,q=r.b*0.25,p=r.a
 return A.ab(A.fC(A.ab(A.da(A.a([A.ab(A.mA("assets/logo-small.png",s,s),q,s),A.ab(s,s,p*0.1),B.vS,B.vT,B.vP,B.vR,B.vU,B.vQ],t.p),B.w,B.aM,B.U),q,p*0.78),s,s),q,p)}}
 A.AH.prototype={
-H(a){var s=null,r=t.w,q=A.aT(a,s,r).w.a,p=q.b,o=q.a,n=A.L("Nature Sanctuary",A.W().$4$color$fontSize$fontWeight$letterSpacing(B.j,o*0.015,B.G,1)),m=p*0.015,l=o*0.008,k=A.L("Nestled in a 16-acre estate in Urumbikkara,\nKerala, Nature Sanctuary is a 7000 sq.ft colonial\nplantation bungalow perched 2500  ft in the\nWestern Ghats",A.W().$3$color$fontSize$letterSpacing(B.j,l,0.5)),j=t.p
+H(a){var s=null,r=t.w,q=A.aT(a,s,r).w.a,p=q.b,o=q.a,n=A.L("Nature Sanctuary",A.W().$4$color$fontSize$fontWeight$letterSpacing(B.j,o*0.015,B.F,1)),m=p*0.015,l=o*0.008,k=A.L("Nestled in a 16-acre estate in Urumbikkara,\nKerala, Nature Sanctuary is a 7000 sq.ft colonial\nplantation bungalow perched 2500  ft in the\nWestern Ghats",A.W().$3$color$fontSize$letterSpacing(B.j,l,0.5)),j=t.p
 return A.e4(s,A.fC(A.ab(A.da(A.a([A.br(A.a([n,new A.aG(new A.aR(0,m,0,0),k,s),new A.aG(new A.aR(0,m,0,0),A.ab(B.FC,s,o>1322?o*0.1:o*0.11),s),new A.aG(B.zq,A.L("Copyright \xa92024 All rights reserved | Privary policy | Disclaimer",A.W().$2$color$fontSize(B.jn,o*0.007)),s)],j),B.T,B.aL),A.br(A.a([A.L("Contact",A.W().$4$color$decoration$fontSize$fontWeight(B.j,B.d,o*0.012,B.i)),A.da(A.a([B.zV,new A.aG(B.fx,A.L("info@naturesanctuary.in",A.W().$4$color$decoration$fontSize$fontWeight(B.j,B.d,l,B.i)),s)],j),B.w,B.ha,B.U),A.da(A.a([B.zU,new A.aG(B.fx,A.L("+91 8089969555",A.W().$4$color$decoration$fontSize$fontWeight(B.j,B.d,l,B.i)),s)],j),B.w,B.ha,B.U),A.da(A.a([B.zW,new A.aG(B.fx,A.L("Urumbikkara, Wembely P.O Idukki 686514, Kerala",A.W().$4$color$decoration$fontSize$fontWeight(B.j,B.d,l,B.i)),s)],j),B.w,B.ha,B.U),A.ab(s,A.aT(a,s,r).w.a.b*0.1,s),A.L("www.naturesanctuary.in",A.W().$4$color$decoration$fontSize$fontWeight(B.j,B.d,l,B.i))],j),B.T,B.aL)],j),B.w,B.aM,B.U),p*0.5,o*0.78),s,s),B.v,B.L,s,s,s,p*0.4,s,s,s,s,o)}}
 A.ia.prototype={
 gu(a){return this.b},
@@ -60183,8 +60183,8 @@ B.wc=new A.k5(20,"hardLight")
 B.wd=new A.k5(26,"saturation")
 B.cd=new A.k5(3,"srcOver")
 B.iq=new A.KO(0,"normal")
-B.D=new A.aw(0,0)
-B.aa=new A.c3(B.D,B.D,B.D,B.D)
+B.C=new A.aw(0,0)
+B.aa=new A.c3(B.C,B.C,B.C,B.C)
 B.f=new A.x(4278190080)
 B.a2=new A.xs(0,"none")
 B.r=new A.bl(B.f,0,B.a2,-1)
@@ -60232,7 +60232,7 @@ B.f3=new A.KR(0,"tight")
 B.aw=new A.xz(0,"dark")
 B.ah=new A.xz(1,"light")
 B.bd=new A.p0(0,"blink")
-B.F=new A.p0(1,"webkit")
+B.E=new A.p0(1,"webkit")
 B.aV=new A.p0(2,"firefox")
 B.wv=new A.p1(null,null,null,null,null,null,null,null,null)
 B.ww=new A.L2(0,"normal")
@@ -60722,13 +60722,12 @@ B.fy=new A.iW(0,"touch")
 B.dA=new A.iW(1,"traditional")
 B.Oq=new A.NR(0,"automatic")
 B.l=new A.mv(0,"normal")
-B.B=new A.mv(1,"italic")
+B.A=new A.mv(1,"italic")
 B.b7=new A.du(0)
 B.cq=new A.du(2)
 B.i=new A.du(3)
-B.z=new A.du(4)
 B.bi=new A.du(5)
-B.G=new A.du(6)
+B.F=new A.du(6)
 B.jQ=new A.hJ("Invalid method call",null,null)
 B.zF=new A.hJ("Expected envelope, got nothing",null,null)
 B.aq=new A.hJ("Message corrupted",null,null)
@@ -60744,26 +60743,27 @@ B.b8=new A.pZ(0,"ready")
 B.dE=new A.pZ(1,"possible")
 B.zH=new A.pZ(2,"defunct")
 B.jU=new A.cf(B.b7,B.l)
-B.jV=new A.cf(B.b7,B.B)
+B.jV=new A.cf(B.b7,B.A)
 B.dB=new A.du(1)
 B.jW=new A.cf(B.dB,B.l)
-B.jX=new A.cf(B.dB,B.B)
+B.jX=new A.cf(B.dB,B.A)
 B.jY=new A.cf(B.cq,B.l)
-B.jZ=new A.cf(B.cq,B.B)
+B.jZ=new A.cf(B.cq,B.A)
 B.fA=new A.cf(B.i,B.l)
-B.fB=new A.cf(B.i,B.B)
-B.k_=new A.cf(B.z,B.l)
-B.k0=new A.cf(B.z,B.B)
+B.fB=new A.cf(B.i,B.A)
+B.H=new A.du(4)
+B.k_=new A.cf(B.H,B.l)
+B.k0=new A.cf(B.H,B.A)
 B.k1=new A.cf(B.bi,B.l)
-B.k2=new A.cf(B.bi,B.B)
-B.k3=new A.cf(B.G,B.l)
-B.k4=new A.cf(B.G,B.B)
+B.k2=new A.cf(B.bi,B.A)
+B.k3=new A.cf(B.F,B.l)
+B.k4=new A.cf(B.F,B.A)
 B.dC=new A.du(7)
 B.k5=new A.cf(B.dC,B.l)
-B.k6=new A.cf(B.dC,B.B)
+B.k6=new A.cf(B.dC,B.A)
 B.cr=new A.du(8)
 B.k7=new A.cf(B.cr,B.l)
-B.k8=new A.cf(B.cr,B.B)
+B.k8=new A.cf(B.cr,B.A)
 B.zI=new A.z8(0,"forward")
 B.zJ=new A.z8(1,"reverse")
 B.bl=new A.my(0,"push")
@@ -60882,7 +60882,7 @@ B.Nu=new A.il(8,0.12)
 B.Nv=new A.il(12,0.14)
 B.kj=A.a(s([B.Ns,B.Nx,B.Nw,B.Nt,B.Nu,B.Nv]),A.a3("u<il>"))
 B.B2=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
-B.kk=A.a(s([B.b7,B.dB,B.cq,B.i,B.z,B.bi,B.G,B.dC,B.cr]),A.a3("u<du>"))
+B.kk=A.a(s([B.b7,B.dB,B.cq,B.i,B.H,B.bi,B.F,B.dC,B.cr]),A.a3("u<du>"))
 B.R=new A.ha(0,"rtl")
 B.q=new A.ha(1,"ltr")
 B.B9=A.a(s([B.R,B.q]),A.a3("u<ha>"))
@@ -61562,7 +61562,7 @@ B.l1=new A.c(4294968590)
 B.o0=new A.c(4294970702)
 B.Dn=new A.b8(B.pw,[B.mU,B.mV,B.kA,B.kP,B.kQ,B.ld,B.le,B.dY,B.on,B.aJ,B.ay,B.az,B.aK,B.kR,B.mN,B.mO,B.mP,B.oe,B.mQ,B.mR,B.mS,B.mT,B.of,B.og,B.mo,B.mq,B.mp,B.au,B.l2,B.l3,B.mG,B.mH,B.mI,B.mJ,B.mK,B.mL,B.mM,B.oo,B.l4,B.op,B.kS,B.cF,B.mW,B.mX,B.fV,B.mb,B.n3,B.lf,B.mY,B.mZ,B.n_,B.n0,B.n1,B.n2,B.lg,B.kT,B.lh,B.kH,B.kI,B.kJ,B.o1,B.ao,B.n4,B.n5,B.lw,B.l5,B.br,B.oq,B.dX,B.kK,B.cE,B.cE,B.kL,B.kU,B.n6,B.lG,B.lP,B.lQ,B.lR,B.lS,B.lT,B.lU,B.lV,B.lW,B.lX,B.lY,B.lH,B.lZ,B.m_,B.m0,B.m1,B.m2,B.lI,B.lJ,B.lK,B.lL,B.lM,B.lN,B.lO,B.n7,B.n8,B.n9,B.na,B.nb,B.nc,B.nd,B.ne,B.nf,B.ng,B.nh,B.ni,B.li,B.kV,B.fU,B.kB,B.or,B.os,B.lj,B.lk,B.ll,B.lm,B.nj,B.nk,B.nl,B.lt,B.lu,B.lx,B.ot,B.kW,B.la,B.ly,B.lz,B.bs,B.kC,B.nm,B.fW,B.nn,B.lv,B.lA,B.lB,B.lC,B.oZ,B.p_,B.ou,B.mw,B.mr,B.mE,B.ms,B.mC,B.mF,B.mt,B.mu,B.mv,B.mD,B.mx,B.my,B.mz,B.mA,B.mB,B.no,B.np,B.nq,B.nr,B.l6,B.mc,B.md,B.me,B.ow,B.ns,B.o2,B.od,B.nt,B.nu,B.nv,B.nw,B.mf,B.nx,B.ny,B.nz,B.o3,B.o4,B.o5,B.o6,B.mg,B.o7,B.mh,B.mi,B.oh,B.oi,B.ok,B.oj,B.ln,B.o8,B.o9,B.oa,B.ob,B.mj,B.lo,B.nA,B.nB,B.lp,B.ov,B.dZ,B.nC,B.mk,B.cG,B.cH,B.oc,B.kM,B.kX,B.nD,B.nE,B.nF,B.nG,B.kY,B.nH,B.nI,B.nJ,B.l7,B.l8,B.lq,B.ml,B.l9,B.lr,B.kZ,B.nK,B.nL,B.nM,B.kN,B.nN,B.lD,B.nS,B.nT,B.mm,B.nO,B.nP,B.e_,B.l_,B.nQ,B.kG,B.ls,B.m3,B.m4,B.m5,B.m6,B.m7,B.m8,B.m9,B.ma,B.ol,B.om,B.mn,B.nR,B.lb,B.nU,B.kD,B.kE,B.kF,B.nW,B.oy,B.oz,B.oA,B.oB,B.oC,B.oD,B.oE,B.nX,B.oF,B.oG,B.oH,B.oI,B.oJ,B.oK,B.oL,B.oM,B.oN,B.oO,B.oP,B.oQ,B.nY,B.oR,B.oS,B.oT,B.oU,B.oV,B.oW,B.oX,B.oY,B.dW,B.nV,B.kO,B.kz,B.nZ,B.ox,B.lc,B.o_,B.lE,B.lF,B.l0,B.l1,B.o0],A.a3("b8<v,c>"))
 B.Do=new A.b8(B.pw,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.hq)
-B.Dp=new A.bU([B.b7,"Thin",B.dB,"ExtraLight",B.cq,"Light",B.i,"Regular",B.z,"Medium",B.bi,"SemiBold",B.G,"Bold",B.dC,"ExtraBold",B.cr,"Black"],A.a3("bU<du,v>"))
+B.Dp=new A.bU([B.b7,"Thin",B.dB,"ExtraLight",B.cq,"Light",B.i,"Regular",B.H,"Medium",B.bi,"SemiBold",B.F,"Bold",B.dC,"ExtraBold",B.cr,"Black"],A.a3("bU<du,v>"))
 B.E0={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.Dq=new A.b8(B.E0,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.hq)
 B.kx=new A.c(32)
@@ -62215,7 +62215,7 @@ B.HO=new A.lq("Thoughtful details, warm hospitality, and lush landscapes","Andre
 B.HP=new A.lq("Perfect blend of comfort and sophistication","Kevin Philip","The teams attention to detail made our visit unforgettable. A true gem nestled in theheart of Urumbikkara.",null)
 B.HQ=new A.lq("A hidden gem nestled in the hills","Agnes. M","Our time here was a delightful blend of comfort and natures beauty. Nature Sanctuary surpassed our expectations.",null)
 B.av=new A.CE(0,"upstream")
-B.H=new A.CE(1,"downstream")
+B.G=new A.CE(1,"downstream")
 B.m=new A.lr(0,"alphabetic")
 B.HR=new A.tB(null)
 B.hR=new A.nt(3,"none")
@@ -62230,7 +62230,7 @@ B.HV=new A.nv(2,"line")
 B.HW=new A.nv(3,"document")
 B.vc=new A.tF(2,"ellipsis")
 B.HX=new A.tF(3,"visible")
-B.HY=new A.bk(0,B.H)
+B.HY=new A.bk(0,B.G)
 B.vd=new A.CK(0,"left")
 B.ve=new A.CK(1,"right")
 B.HZ=new A.tI(null,null,null)
@@ -62239,54 +62239,54 @@ B.HT=new A.ls(1)
 B.yF=new A.x(4294967040)
 B.HS=new A.tD(1,"double")
 B.Iy=new A.j(!0,B.y6,null,"monospace",null,null,48,B.cr,null,null,null,null,null,null,null,null,null,B.HT,B.yF,B.HS,null,"fallback style; consider putting your text in a Material",null,null,null,null)
-B.KN=new A.j(!0,null,null,null,null,null,null,B.G,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.KN=new A.j(!0,null,null,null,null,null,null,B.F,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Ip=new A.j(!0,B.x,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity displayLarge",null,null,null,null)
 B.IX=new A.j(!0,B.x,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity displayMedium",null,null,null,null)
 B.Iq=new A.j(!0,B.x,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity displaySmall",null,null,null,null)
 B.Im=new A.j(!0,B.x,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity headlineLarge",null,null,null,null)
 B.JJ=new A.j(!0,B.x,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity headlineMedium",null,null,null,null)
-B.A=new A.x(3707764736)
-B.K4=new A.j(!0,B.A,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity headlineSmall",null,null,null,null)
-B.L8=new A.j(!0,B.A,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity titleLarge",null,null,null,null)
-B.L3=new A.j(!0,B.A,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity titleMedium",null,null,null,null)
+B.z=new A.x(3707764736)
+B.K4=new A.j(!0,B.z,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity headlineSmall",null,null,null,null)
+B.L8=new A.j(!0,B.z,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity titleLarge",null,null,null,null)
+B.L3=new A.j(!0,B.z,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity titleMedium",null,null,null,null)
 B.LA=new A.j(!0,B.f,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity titleSmall",null,null,null,null)
-B.Lt=new A.j(!0,B.A,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity bodyLarge",null,null,null,null)
-B.K3=new A.j(!0,B.A,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity bodyMedium",null,null,null,null)
+B.Lt=new A.j(!0,B.z,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity bodyLarge",null,null,null,null)
+B.K3=new A.j(!0,B.z,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity bodyMedium",null,null,null,null)
 B.L2=new A.j(!0,B.x,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity bodySmall",null,null,null,null)
-B.K9=new A.j(!0,B.A,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity labelLarge",null,null,null,null)
+B.K9=new A.j(!0,B.z,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity labelLarge",null,null,null,null)
 B.JM=new A.j(!0,B.f,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.Lk=new A.j(!0,B.f,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.LQ=new A.cC(B.Ip,B.IX,B.Iq,B.Im,B.JJ,B.K4,B.L8,B.L3,B.LA,B.Lt,B.K3,B.L2,B.K9,B.JM,B.Lk)
-B.E=new A.lr(1,"ideographic")
-B.K7=new A.j(!1,null,null,null,null,null,112,B.b7,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense displayLarge 2014",null,null,null,null)
-B.IG=new A.j(!1,null,null,null,null,null,56,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense displayMedium 2014",null,null,null,null)
-B.KD=new A.j(!1,null,null,null,null,null,45,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense displaySmall 2014",null,null,null,null)
-B.IC=new A.j(!1,null,null,null,null,null,40,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense headlineLarge 2014",null,null,null,null)
-B.KY=new A.j(!1,null,null,null,null,null,34,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense headlineMedium 2014",null,null,null,null)
-B.IO=new A.j(!1,null,null,null,null,null,24,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense headlineSmall 2014",null,null,null,null)
-B.Ls=new A.j(!1,null,null,null,null,null,21,B.z,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense titleLarge 2014",null,null,null,null)
-B.Ih=new A.j(!1,null,null,null,null,null,17,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense titleMedium 2014",null,null,null,null)
-B.Ij=new A.j(!1,null,null,null,null,null,15,B.z,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense titleSmall 2014",null,null,null,null)
-B.JG=new A.j(!1,null,null,null,null,null,15,B.z,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense bodyLarge 2014",null,null,null,null)
-B.Jo=new A.j(!1,null,null,null,null,null,15,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense bodyMedium 2014",null,null,null,null)
-B.J2=new A.j(!1,null,null,null,null,null,13,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense bodySmall 2014",null,null,null,null)
-B.J9=new A.j(!1,null,null,null,null,null,15,B.z,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense labelLarge 2014",null,null,null,null)
-B.Kl=new A.j(!1,null,null,null,null,null,12,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense labelMedium 2014",null,null,null,null)
-B.I7=new A.j(!1,null,null,null,null,null,11,B.i,null,null,null,B.E,null,null,null,null,null,null,null,null,null,"dense labelSmall 2014",null,null,null,null)
+B.D=new A.lr(1,"ideographic")
+B.K7=new A.j(!1,null,null,null,null,null,112,B.b7,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense displayLarge 2014",null,null,null,null)
+B.IG=new A.j(!1,null,null,null,null,null,56,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense displayMedium 2014",null,null,null,null)
+B.KD=new A.j(!1,null,null,null,null,null,45,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense displaySmall 2014",null,null,null,null)
+B.IC=new A.j(!1,null,null,null,null,null,40,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense headlineLarge 2014",null,null,null,null)
+B.KY=new A.j(!1,null,null,null,null,null,34,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense headlineMedium 2014",null,null,null,null)
+B.IO=new A.j(!1,null,null,null,null,null,24,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense headlineSmall 2014",null,null,null,null)
+B.Ls=new A.j(!1,null,null,null,null,null,21,B.H,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense titleLarge 2014",null,null,null,null)
+B.Ih=new A.j(!1,null,null,null,null,null,17,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense titleMedium 2014",null,null,null,null)
+B.Ij=new A.j(!1,null,null,null,null,null,15,B.H,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense titleSmall 2014",null,null,null,null)
+B.JG=new A.j(!1,null,null,null,null,null,15,B.H,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense bodyLarge 2014",null,null,null,null)
+B.Jo=new A.j(!1,null,null,null,null,null,15,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense bodyMedium 2014",null,null,null,null)
+B.J2=new A.j(!1,null,null,null,null,null,13,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense bodySmall 2014",null,null,null,null)
+B.J9=new A.j(!1,null,null,null,null,null,15,B.H,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense labelLarge 2014",null,null,null,null)
+B.Kl=new A.j(!1,null,null,null,null,null,12,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense labelMedium 2014",null,null,null,null)
+B.I7=new A.j(!1,null,null,null,null,null,11,B.i,null,null,null,B.D,null,null,null,null,null,null,null,null,null,"dense labelSmall 2014",null,null,null,null)
 B.LR=new A.cC(B.K7,B.IG,B.KD,B.IC,B.KY,B.IO,B.Ls,B.Ih,B.Ij,B.JG,B.Jo,B.J2,B.J9,B.Kl,B.I7)
 B.Ic=new A.j(!0,B.x,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView displayLarge",null,null,null,null)
 B.IK=new A.j(!0,B.x,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView displayMedium",null,null,null,null)
 B.Je=new A.j(!0,B.x,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView displaySmall",null,null,null,null)
 B.Lg=new A.j(!0,B.x,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView headlineLarge",null,null,null,null)
 B.Ly=new A.j(!0,B.x,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView headlineMedium",null,null,null,null)
-B.Lv=new A.j(!0,B.A,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView headlineSmall",null,null,null,null)
-B.J5=new A.j(!0,B.A,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView titleLarge",null,null,null,null)
-B.L9=new A.j(!0,B.A,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView titleMedium",null,null,null,null)
+B.Lv=new A.j(!0,B.z,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView headlineSmall",null,null,null,null)
+B.J5=new A.j(!0,B.z,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView titleLarge",null,null,null,null)
+B.L9=new A.j(!0,B.z,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView titleMedium",null,null,null,null)
 B.IT=new A.j(!0,B.f,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView titleSmall",null,null,null,null)
-B.J1=new A.j(!0,B.A,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView bodyLarge",null,null,null,null)
-B.Iz=new A.j(!0,B.A,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView bodyMedium",null,null,null,null)
+B.J1=new A.j(!0,B.z,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView bodyLarge",null,null,null,null)
+B.Iz=new A.j(!0,B.z,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView bodyMedium",null,null,null,null)
 B.Jd=new A.j(!0,B.x,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView bodySmall",null,null,null,null)
-B.LH=new A.j(!0,B.A,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView labelLarge",null,null,null,null)
+B.LH=new A.j(!0,B.z,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView labelLarge",null,null,null,null)
 B.KC=new A.j(!0,B.f,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView labelMedium",null,null,null,null)
 B.Kd=new A.j(!0,B.f,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackMountainView labelSmall",null,null,null,null)
 B.LS=new A.cC(B.Ic,B.IK,B.Je,B.Lg,B.Ly,B.Lv,B.J5,B.L9,B.IT,B.J1,B.Iz,B.Jd,B.LH,B.KC,B.Kd)
@@ -62306,22 +62306,22 @@ B.KZ=new A.j(!0,B.j,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.Jn=new A.j(!0,B.j,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteRedwoodCity labelMedium",null,null,null,null)
 B.Kv=new A.j(!0,B.j,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteRedwoodCity labelSmall",null,null,null,null)
 B.LT=new A.cC(B.I8,B.J8,B.I9,B.Io,B.It,B.L0,B.Jl,B.Jw,B.JV,B.Kt,B.JD,B.L5,B.KZ,B.Jn,B.Kv)
-B.C=A.a(s(["Ubuntu","Cantarell","DejaVu Sans","Liberation Sans","Arial"]),t.s)
-B.Kb=new A.j(!0,B.x,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki displayLarge",null,null,null,null)
-B.KB=new A.j(!0,B.x,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki displayMedium",null,null,null,null)
-B.JZ=new A.j(!0,B.x,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki displaySmall",null,null,null,null)
-B.IN=new A.j(!0,B.x,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki headlineLarge",null,null,null,null)
-B.Jm=new A.j(!0,B.x,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki headlineMedium",null,null,null,null)
-B.Jx=new A.j(!0,B.A,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki headlineSmall",null,null,null,null)
-B.KU=new A.j(!0,B.A,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki titleLarge",null,null,null,null)
-B.IQ=new A.j(!0,B.A,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki titleMedium",null,null,null,null)
-B.I5=new A.j(!0,B.f,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki titleSmall",null,null,null,null)
-B.Lo=new A.j(!0,B.A,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki bodyLarge",null,null,null,null)
-B.I_=new A.j(!0,B.A,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki bodyMedium",null,null,null,null)
-B.Kq=new A.j(!0,B.x,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki bodySmall",null,null,null,null)
-B.J3=new A.j(!0,B.A,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki labelLarge",null,null,null,null)
-B.Kf=new A.j(!0,B.f,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
-B.LC=new A.j(!0,B.f,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
+B.B=A.a(s(["Ubuntu","Cantarell","DejaVu Sans","Liberation Sans","Arial"]),t.s)
+B.Kb=new A.j(!0,B.x,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki displayLarge",null,null,null,null)
+B.KB=new A.j(!0,B.x,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki displayMedium",null,null,null,null)
+B.JZ=new A.j(!0,B.x,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki displaySmall",null,null,null,null)
+B.IN=new A.j(!0,B.x,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki headlineLarge",null,null,null,null)
+B.Jm=new A.j(!0,B.x,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki headlineMedium",null,null,null,null)
+B.Jx=new A.j(!0,B.z,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki headlineSmall",null,null,null,null)
+B.KU=new A.j(!0,B.z,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki titleLarge",null,null,null,null)
+B.IQ=new A.j(!0,B.z,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki titleMedium",null,null,null,null)
+B.I5=new A.j(!0,B.f,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki titleSmall",null,null,null,null)
+B.Lo=new A.j(!0,B.z,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki bodyLarge",null,null,null,null)
+B.I_=new A.j(!0,B.z,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki bodyMedium",null,null,null,null)
+B.Kq=new A.j(!0,B.x,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki bodySmall",null,null,null,null)
+B.J3=new A.j(!0,B.z,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki labelLarge",null,null,null,null)
+B.Kf=new A.j(!0,B.f,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
+B.LC=new A.j(!0,B.f,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
 B.LU=new A.cC(B.Kb,B.KB,B.JZ,B.IN,B.Jm,B.Jx,B.KU,B.IQ,B.I5,B.Lo,B.I_,B.Kq,B.J3,B.Kf,B.LC)
 B.Iv=new A.j(!1,null,null,null,null,null,112,B.b7,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike displayLarge 2014",null,null,null,null)
 B.LB=new A.j(!1,null,null,null,null,null,56,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike displayMedium 2014",null,null,null,null)
@@ -62329,13 +62329,13 @@ B.JY=new A.j(!1,null,null,null,null,null,45,B.i,null,null,null,B.m,null,null,nul
 B.KO=new A.j(!1,null,null,null,null,null,40,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike headlineLarge 2014",null,null,null,null)
 B.Ku=new A.j(!1,null,null,null,null,null,34,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike headlineMedium 2014",null,null,null,null)
 B.Id=new A.j(!1,null,null,null,null,null,24,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike headlineSmall 2014",null,null,null,null)
-B.Jg=new A.j(!1,null,null,null,null,null,20,B.z,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
+B.Jg=new A.j(!1,null,null,null,null,null,20,B.H,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
 B.IA=new A.j(!1,null,null,null,null,null,16,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike titleMedium 2014",null,null,null,null)
-B.Kz=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike titleSmall 2014",null,null,null,null)
-B.Kc=new A.j(!1,null,null,null,null,null,14,B.z,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike bodyLarge 2014",null,null,null,null)
+B.Kz=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike titleSmall 2014",null,null,null,null)
+B.Kc=new A.j(!1,null,null,null,null,null,14,B.H,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike bodyLarge 2014",null,null,null,null)
 B.Kh=new A.j(!1,null,null,null,null,null,14,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike bodyMedium 2014",null,null,null,null)
 B.JH=new A.j(!1,null,null,null,null,null,12,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike bodySmall 2014",null,null,null,null)
-B.JK=new A.j(!1,null,null,null,null,null,14,B.z,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
+B.JK=new A.j(!1,null,null,null,null,null,14,B.H,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
 B.Jr=new A.j(!1,null,null,null,null,null,12,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike labelMedium 2014",null,null,null,null)
 B.KL=new A.j(!1,null,null,null,null,null,10,B.i,null,1.5,null,B.m,null,null,null,null,null,null,null,null,null,"englishLike labelSmall 2014",null,null,null,null)
 B.LV=new A.cC(B.Iv,B.LB,B.JY,B.KO,B.Ku,B.Id,B.Jg,B.IA,B.Kz,B.Kc,B.Kh,B.JH,B.JK,B.Jr,B.KL)
@@ -62347,14 +62347,14 @@ B.LP=new A.j(!1,null,null,null,null,null,32,B.i,null,0,null,B.m,1.25,B.t,null,nu
 B.LI=new A.j(!1,null,null,null,null,null,28,B.i,null,0,null,B.m,1.29,B.t,null,null,null,null,null,null,null,"tall headlineMedium 2021",null,null,null,null)
 B.KM=new A.j(!1,null,null,null,null,null,24,B.i,null,0,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"tall headlineSmall 2021",null,null,null,null)
 B.I3=new A.j(!1,null,null,null,null,null,22,B.i,null,0,null,B.m,1.27,B.t,null,null,null,null,null,null,null,"tall titleLarge 2021",null,null,null,null)
-B.Lx=new A.j(!1,null,null,null,null,null,16,B.z,null,0.15,null,B.m,1.5,B.t,null,null,null,null,null,null,null,"tall titleMedium 2021",null,null,null,null)
-B.IP=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"tall titleSmall 2021",null,null,null,null)
+B.Lx=new A.j(!1,null,null,null,null,null,16,B.H,null,0.15,null,B.m,1.5,B.t,null,null,null,null,null,null,null,"tall titleMedium 2021",null,null,null,null)
+B.IP=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"tall titleSmall 2021",null,null,null,null)
 B.I0=new A.j(!1,null,null,null,null,null,16,B.i,null,0.5,null,B.m,1.5,B.t,null,null,null,null,null,null,null,"tall bodyLarge 2021",null,null,null,null)
 B.Ks=new A.j(!1,null,null,null,null,null,14,B.i,null,0.25,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"tall bodyMedium 2021",null,null,null,null)
 B.K6=new A.j(!1,null,null,null,null,null,12,B.i,null,0.4,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"tall bodySmall 2021",null,null,null,null)
-B.KK=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"tall labelLarge 2021",null,null,null,null)
-B.Kr=new A.j(!1,null,null,null,null,null,12,B.z,null,0.5,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"tall labelMedium 2021",null,null,null,null)
-B.IS=new A.j(!1,null,null,null,null,null,11,B.z,null,0.5,null,B.m,1.45,B.t,null,null,null,null,null,null,null,"tall labelSmall 2021",null,null,null,null)
+B.KK=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"tall labelLarge 2021",null,null,null,null)
+B.Kr=new A.j(!1,null,null,null,null,null,12,B.H,null,0.5,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"tall labelMedium 2021",null,null,null,null)
+B.IS=new A.j(!1,null,null,null,null,null,11,B.H,null,0.5,null,B.m,1.45,B.t,null,null,null,null,null,null,null,"tall labelSmall 2021",null,null,null,null)
 B.LW=new A.cC(B.Lw,B.Kn,B.JE,B.LP,B.LI,B.KM,B.I3,B.Lx,B.IP,B.I0,B.Ks,B.K6,B.KK,B.Kr,B.IS)
 B.KE=new A.j(!0,B.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteRedmond displayLarge",null,null,null,null)
 B.JN=new A.j(!0,B.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteRedmond displayMedium",null,null,null,null)
@@ -62378,13 +62378,13 @@ B.LK=new A.j(!1,null,null,null,null,null,45,B.i,null,null,null,B.m,null,null,nul
 B.KG=new A.j(!1,null,null,null,null,null,40,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall headlineLarge 2014",null,null,null,null)
 B.J4=new A.j(!1,null,null,null,null,null,34,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall headlineMedium 2014",null,null,null,null)
 B.J_=new A.j(!1,null,null,null,null,null,24,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall headlineSmall 2014",null,null,null,null)
-B.LG=new A.j(!1,null,null,null,null,null,21,B.G,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall titleLarge 2014",null,null,null,null)
+B.LG=new A.j(!1,null,null,null,null,null,21,B.F,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall titleLarge 2014",null,null,null,null)
 B.Jb=new A.j(!1,null,null,null,null,null,17,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall titleMedium 2014",null,null,null,null)
-B.LL=new A.j(!1,null,null,null,null,null,15,B.z,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
-B.Lz=new A.j(!1,null,null,null,null,null,15,B.G,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall bodyLarge 2014",null,null,null,null)
+B.LL=new A.j(!1,null,null,null,null,null,15,B.H,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
+B.Lz=new A.j(!1,null,null,null,null,null,15,B.F,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall bodyLarge 2014",null,null,null,null)
 B.Jt=new A.j(!1,null,null,null,null,null,15,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall bodyMedium 2014",null,null,null,null)
 B.KI=new A.j(!1,null,null,null,null,null,13,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall bodySmall 2014",null,null,null,null)
-B.Kk=new A.j(!1,null,null,null,null,null,15,B.G,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall labelLarge 2014",null,null,null,null)
+B.Kk=new A.j(!1,null,null,null,null,null,15,B.F,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall labelLarge 2014",null,null,null,null)
 B.KP=new A.j(!1,null,null,null,null,null,12,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall labelMedium 2014",null,null,null,null)
 B.Ki=new A.j(!1,null,null,null,null,null,11,B.i,null,null,null,B.m,null,null,null,null,null,null,null,null,null,"tall labelSmall 2014",null,null,null,null)
 B.LY=new A.cC(B.Jj,B.IH,B.LK,B.KG,B.J4,B.J_,B.LG,B.Jb,B.LL,B.Lz,B.Jt,B.KI,B.Kk,B.KP,B.Ki)
@@ -62404,21 +62404,21 @@ B.KS=new A.j(!0,B.j,null,".SF UI Text",null,null,null,null,null,null,null,null,n
 B.JT=new A.j(!0,B.j,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteCupertino labelMedium",null,null,null,null)
 B.KA=new A.j(!0,B.j,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteCupertino labelSmall",null,null,null,null)
 B.LZ=new A.cC(B.K2,B.KV,B.Jv,B.JQ,B.IW,B.JP,B.J6,B.KF,B.Ji,B.Jy,B.JO,B.Is,B.KS,B.JT,B.KA)
-B.Ll=new A.j(!1,null,null,null,null,null,57,B.i,null,-0.25,null,B.E,1.12,B.t,null,null,null,null,null,null,null,"dense displayLarge 2021",null,null,null,null)
-B.Lm=new A.j(!1,null,null,null,null,null,45,B.i,null,0,null,B.E,1.16,B.t,null,null,null,null,null,null,null,"dense displayMedium 2021",null,null,null,null)
-B.Lh=new A.j(!1,null,null,null,null,null,36,B.i,null,0,null,B.E,1.22,B.t,null,null,null,null,null,null,null,"dense displaySmall 2021",null,null,null,null)
-B.KX=new A.j(!1,null,null,null,null,null,32,B.i,null,0,null,B.E,1.25,B.t,null,null,null,null,null,null,null,"dense headlineLarge 2021",null,null,null,null)
-B.Iu=new A.j(!1,null,null,null,null,null,28,B.i,null,0,null,B.E,1.29,B.t,null,null,null,null,null,null,null,"dense headlineMedium 2021",null,null,null,null)
-B.K5=new A.j(!1,null,null,null,null,null,24,B.i,null,0,null,B.E,1.33,B.t,null,null,null,null,null,null,null,"dense headlineSmall 2021",null,null,null,null)
-B.Il=new A.j(!1,null,null,null,null,null,22,B.i,null,0,null,B.E,1.27,B.t,null,null,null,null,null,null,null,"dense titleLarge 2021",null,null,null,null)
-B.Ir=new A.j(!1,null,null,null,null,null,16,B.z,null,0.15,null,B.E,1.5,B.t,null,null,null,null,null,null,null,"dense titleMedium 2021",null,null,null,null)
-B.Jh=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.E,1.43,B.t,null,null,null,null,null,null,null,"dense titleSmall 2021",null,null,null,null)
-B.LO=new A.j(!1,null,null,null,null,null,16,B.i,null,0.5,null,B.E,1.5,B.t,null,null,null,null,null,null,null,"dense bodyLarge 2021",null,null,null,null)
-B.La=new A.j(!1,null,null,null,null,null,14,B.i,null,0.25,null,B.E,1.43,B.t,null,null,null,null,null,null,null,"dense bodyMedium 2021",null,null,null,null)
-B.IZ=new A.j(!1,null,null,null,null,null,12,B.i,null,0.4,null,B.E,1.33,B.t,null,null,null,null,null,null,null,"dense bodySmall 2021",null,null,null,null)
-B.Ky=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.E,1.43,B.t,null,null,null,null,null,null,null,"dense labelLarge 2021",null,null,null,null)
-B.ID=new A.j(!1,null,null,null,null,null,12,B.z,null,0.5,null,B.E,1.33,B.t,null,null,null,null,null,null,null,"dense labelMedium 2021",null,null,null,null)
-B.LF=new A.j(!1,null,null,null,null,null,11,B.z,null,0.5,null,B.E,1.45,B.t,null,null,null,null,null,null,null,"dense labelSmall 2021",null,null,null,null)
+B.Ll=new A.j(!1,null,null,null,null,null,57,B.i,null,-0.25,null,B.D,1.12,B.t,null,null,null,null,null,null,null,"dense displayLarge 2021",null,null,null,null)
+B.Lm=new A.j(!1,null,null,null,null,null,45,B.i,null,0,null,B.D,1.16,B.t,null,null,null,null,null,null,null,"dense displayMedium 2021",null,null,null,null)
+B.Lh=new A.j(!1,null,null,null,null,null,36,B.i,null,0,null,B.D,1.22,B.t,null,null,null,null,null,null,null,"dense displaySmall 2021",null,null,null,null)
+B.KX=new A.j(!1,null,null,null,null,null,32,B.i,null,0,null,B.D,1.25,B.t,null,null,null,null,null,null,null,"dense headlineLarge 2021",null,null,null,null)
+B.Iu=new A.j(!1,null,null,null,null,null,28,B.i,null,0,null,B.D,1.29,B.t,null,null,null,null,null,null,null,"dense headlineMedium 2021",null,null,null,null)
+B.K5=new A.j(!1,null,null,null,null,null,24,B.i,null,0,null,B.D,1.33,B.t,null,null,null,null,null,null,null,"dense headlineSmall 2021",null,null,null,null)
+B.Il=new A.j(!1,null,null,null,null,null,22,B.i,null,0,null,B.D,1.27,B.t,null,null,null,null,null,null,null,"dense titleLarge 2021",null,null,null,null)
+B.Ir=new A.j(!1,null,null,null,null,null,16,B.H,null,0.15,null,B.D,1.5,B.t,null,null,null,null,null,null,null,"dense titleMedium 2021",null,null,null,null)
+B.Jh=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.D,1.43,B.t,null,null,null,null,null,null,null,"dense titleSmall 2021",null,null,null,null)
+B.LO=new A.j(!1,null,null,null,null,null,16,B.i,null,0.5,null,B.D,1.5,B.t,null,null,null,null,null,null,null,"dense bodyLarge 2021",null,null,null,null)
+B.La=new A.j(!1,null,null,null,null,null,14,B.i,null,0.25,null,B.D,1.43,B.t,null,null,null,null,null,null,null,"dense bodyMedium 2021",null,null,null,null)
+B.IZ=new A.j(!1,null,null,null,null,null,12,B.i,null,0.4,null,B.D,1.33,B.t,null,null,null,null,null,null,null,"dense bodySmall 2021",null,null,null,null)
+B.Ky=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.D,1.43,B.t,null,null,null,null,null,null,null,"dense labelLarge 2021",null,null,null,null)
+B.ID=new A.j(!1,null,null,null,null,null,12,B.H,null,0.5,null,B.D,1.33,B.t,null,null,null,null,null,null,null,"dense labelMedium 2021",null,null,null,null)
+B.LF=new A.j(!1,null,null,null,null,null,11,B.H,null,0.5,null,B.D,1.45,B.t,null,null,null,null,null,null,null,"dense labelSmall 2021",null,null,null,null)
 B.M_=new A.cC(B.Ll,B.Lm,B.Lh,B.KX,B.Iu,B.K5,B.Il,B.Ir,B.Jh,B.LO,B.La,B.IZ,B.Ky,B.ID,B.LF)
 B.IF=new A.j(!1,null,null,null,null,null,57,B.i,null,-0.25,null,B.m,1.12,B.t,null,null,null,null,null,null,null,"englishLike displayLarge 2021",null,null,null,null)
 B.Jc=new A.j(!1,null,null,null,null,null,45,B.i,null,0,null,B.m,1.16,B.t,null,null,null,null,null,null,null,"englishLike displayMedium 2021",null,null,null,null)
@@ -62427,60 +62427,60 @@ B.Jp=new A.j(!1,null,null,null,null,null,32,B.i,null,0,null,B.m,1.25,B.t,null,nu
 B.JA=new A.j(!1,null,null,null,null,null,28,B.i,null,0,null,B.m,1.29,B.t,null,null,null,null,null,null,null,"englishLike headlineMedium 2021",null,null,null,null)
 B.L_=new A.j(!1,null,null,null,null,null,24,B.i,null,0,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"englishLike headlineSmall 2021",null,null,null,null)
 B.KR=new A.j(!1,null,null,null,null,null,22,B.i,null,0,null,B.m,1.27,B.t,null,null,null,null,null,null,null,"englishLike titleLarge 2021",null,null,null,null)
-B.Ie=new A.j(!1,null,null,null,null,null,16,B.z,null,0.15,null,B.m,1.5,B.t,null,null,null,null,null,null,null,"englishLike titleMedium 2021",null,null,null,null)
-B.IJ=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"englishLike titleSmall 2021",null,null,null,null)
+B.Ie=new A.j(!1,null,null,null,null,null,16,B.H,null,0.15,null,B.m,1.5,B.t,null,null,null,null,null,null,null,"englishLike titleMedium 2021",null,null,null,null)
+B.IJ=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"englishLike titleSmall 2021",null,null,null,null)
 B.I4=new A.j(!1,null,null,null,null,null,16,B.i,null,0.5,null,B.m,1.5,B.t,null,null,null,null,null,null,null,"englishLike bodyLarge 2021",null,null,null,null)
 B.I1=new A.j(!1,null,null,null,null,null,14,B.i,null,0.25,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"englishLike bodyMedium 2021",null,null,null,null)
 B.Kw=new A.j(!1,null,null,null,null,null,12,B.i,null,0.4,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"englishLike bodySmall 2021",null,null,null,null)
-B.J7=new A.j(!1,null,null,null,null,null,14,B.z,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"englishLike labelLarge 2021",null,null,null,null)
-B.Ld=new A.j(!1,null,null,null,null,null,12,B.z,null,0.5,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"englishLike labelMedium 2021",null,null,null,null)
-B.Js=new A.j(!1,null,null,null,null,null,11,B.z,null,0.5,null,B.m,1.45,B.t,null,null,null,null,null,null,null,"englishLike labelSmall 2021",null,null,null,null)
+B.J7=new A.j(!1,null,null,null,null,null,14,B.H,null,0.1,null,B.m,1.43,B.t,null,null,null,null,null,null,null,"englishLike labelLarge 2021",null,null,null,null)
+B.Ld=new A.j(!1,null,null,null,null,null,12,B.H,null,0.5,null,B.m,1.33,B.t,null,null,null,null,null,null,null,"englishLike labelMedium 2021",null,null,null,null)
+B.Js=new A.j(!1,null,null,null,null,null,11,B.H,null,0.5,null,B.m,1.45,B.t,null,null,null,null,null,null,null,"englishLike labelSmall 2021",null,null,null,null)
 B.M0=new A.cC(B.IF,B.Jc,B.Ln,B.Jp,B.JA,B.L_,B.KR,B.Ie,B.IJ,B.I4,B.I1,B.Kw,B.J7,B.Ld,B.Js)
 B.K_=new A.j(!0,B.x,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond displayLarge",null,null,null,null)
 B.Jf=new A.j(!0,B.x,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond displayMedium",null,null,null,null)
 B.Lp=new A.j(!0,B.x,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond displaySmall",null,null,null,null)
 B.Iw=new A.j(!0,B.x,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond headlineLarge",null,null,null,null)
 B.L6=new A.j(!0,B.x,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond headlineMedium",null,null,null,null)
-B.Ia=new A.j(!0,B.A,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond headlineSmall",null,null,null,null)
-B.JC=new A.j(!0,B.A,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond titleLarge",null,null,null,null)
-B.JS=new A.j(!0,B.A,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond titleMedium",null,null,null,null)
+B.Ia=new A.j(!0,B.z,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond headlineSmall",null,null,null,null)
+B.JC=new A.j(!0,B.z,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond titleLarge",null,null,null,null)
+B.JS=new A.j(!0,B.z,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond titleMedium",null,null,null,null)
 B.I2=new A.j(!0,B.f,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond titleSmall",null,null,null,null)
-B.KJ=new A.j(!0,B.A,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond bodyLarge",null,null,null,null)
-B.Ix=new A.j(!0,B.A,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond bodyMedium",null,null,null,null)
+B.KJ=new A.j(!0,B.z,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond bodyLarge",null,null,null,null)
+B.Ix=new A.j(!0,B.z,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond bodyMedium",null,null,null,null)
 B.LD=new A.j(!0,B.x,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond bodySmall",null,null,null,null)
-B.JU=new A.j(!0,B.A,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond labelLarge",null,null,null,null)
+B.JU=new A.j(!0,B.z,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond labelLarge",null,null,null,null)
 B.In=new A.j(!0,B.f,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond labelMedium",null,null,null,null)
 B.IE=new A.j(!0,B.f,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackRedmond labelSmall",null,null,null,null)
 B.M1=new A.cC(B.K_,B.Jf,B.Lp,B.Iw,B.L6,B.Ia,B.JC,B.JS,B.I2,B.KJ,B.Ix,B.LD,B.JU,B.In,B.IE)
-B.JL=new A.j(!0,B.y,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki displayLarge",null,null,null,null)
-B.JW=new A.j(!0,B.y,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki displayMedium",null,null,null,null)
-B.Le=new A.j(!0,B.y,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki displaySmall",null,null,null,null)
-B.KQ=new A.j(!0,B.y,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki headlineLarge",null,null,null,null)
-B.LE=new A.j(!0,B.y,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki headlineMedium",null,null,null,null)
-B.K1=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki headlineSmall",null,null,null,null)
-B.IU=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki titleLarge",null,null,null,null)
-B.LM=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki titleMedium",null,null,null,null)
-B.IL=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki titleSmall",null,null,null,null)
-B.I6=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki bodyLarge",null,null,null,null)
-B.Jz=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki bodyMedium",null,null,null,null)
-B.Ja=new A.j(!0,B.y,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki bodySmall",null,null,null,null)
-B.If=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki labelLarge",null,null,null,null)
-B.K0=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki labelMedium",null,null,null,null)
-B.Ig=new A.j(!0,B.j,null,"Roboto",B.C,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki labelSmall",null,null,null,null)
+B.JL=new A.j(!0,B.y,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki displayLarge",null,null,null,null)
+B.JW=new A.j(!0,B.y,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki displayMedium",null,null,null,null)
+B.Le=new A.j(!0,B.y,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki displaySmall",null,null,null,null)
+B.KQ=new A.j(!0,B.y,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki headlineLarge",null,null,null,null)
+B.LE=new A.j(!0,B.y,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki headlineMedium",null,null,null,null)
+B.K1=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki headlineSmall",null,null,null,null)
+B.IU=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki titleLarge",null,null,null,null)
+B.LM=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki titleMedium",null,null,null,null)
+B.IL=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki titleSmall",null,null,null,null)
+B.I6=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki bodyLarge",null,null,null,null)
+B.Jz=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki bodyMedium",null,null,null,null)
+B.Ja=new A.j(!0,B.y,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki bodySmall",null,null,null,null)
+B.If=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki labelLarge",null,null,null,null)
+B.K0=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki labelMedium",null,null,null,null)
+B.Ig=new A.j(!0,B.j,null,"Roboto",B.B,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"whiteHelsinki labelSmall",null,null,null,null)
 B.M2=new A.cC(B.JL,B.JW,B.Le,B.KQ,B.LE,B.K1,B.IU,B.LM,B.IL,B.I6,B.Jz,B.Ja,B.If,B.K0,B.Ig)
 B.JI=new A.j(!0,B.x,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino displayLarge",null,null,null,null)
 B.KT=new A.j(!0,B.x,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino displayMedium",null,null,null,null)
 B.Ko=new A.j(!0,B.x,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino displaySmall",null,null,null,null)
 B.Kx=new A.j(!0,B.x,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino headlineLarge",null,null,null,null)
 B.Ib=new A.j(!0,B.x,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino headlineMedium",null,null,null,null)
-B.Ke=new A.j(!0,B.A,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino headlineSmall",null,null,null,null)
-B.J0=new A.j(!0,B.A,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino titleLarge",null,null,null,null)
-B.Kj=new A.j(!0,B.A,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino titleMedium",null,null,null,null)
+B.Ke=new A.j(!0,B.z,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino headlineSmall",null,null,null,null)
+B.J0=new A.j(!0,B.z,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino titleLarge",null,null,null,null)
+B.Kj=new A.j(!0,B.z,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino titleMedium",null,null,null,null)
 B.II=new A.j(!0,B.f,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino titleSmall",null,null,null,null)
-B.Lj=new A.j(!0,B.A,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino bodyLarge",null,null,null,null)
-B.L4=new A.j(!0,B.A,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino bodyMedium",null,null,null,null)
+B.Lj=new A.j(!0,B.z,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino bodyLarge",null,null,null,null)
+B.L4=new A.j(!0,B.z,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino bodyMedium",null,null,null,null)
 B.Ka=new A.j(!0,B.x,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino bodySmall",null,null,null,null)
-B.IY=new A.j(!0,B.A,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino labelLarge",null,null,null,null)
+B.IY=new A.j(!0,B.z,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino labelLarge",null,null,null,null)
 B.IR=new A.j(!0,B.f,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino labelMedium",null,null,null,null)
 B.L1=new A.j(!0,B.f,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.d,null,null,null,"blackCupertino labelSmall",null,null,null,null)
 B.M3=new A.cC(B.JI,B.KT,B.Ko,B.Kx,B.Ib,B.Ke,B.J0,B.Kj,B.II,B.Lj,B.L4,B.Ka,B.IY,B.IR,B.L1)
