@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "7069d33849d3adcf3fa1191d4555bd3b",
-"assets/AssetManifest.bin.json": "ea56b4e29e0a97df4a3cdb778dfdf1c2",
-"assets/AssetManifest.json": "79bb86f574d637bb9019fff3a816216c",
+const RESOURCES = {"assets/AssetManifest.bin": "d23b0984993e370f9f388523acbd4632",
+"assets/AssetManifest.bin.json": "777dd8b34752c081cb48bed36bac9367",
+"assets/AssetManifest.json": "c1e9354744a586bc48ecfdc97dbb1931",
 "assets/assets/coming%2520soon.json": "78eb30dc2f61af443b601b34180543d3",
 "assets/assets/comingsoon.json": "6fad19057776fa8876975415bdc09104",
 "assets/assets/icons/facebook.png": "ceda85dc6354796fd08c69a2032d2b29",
@@ -21,6 +21,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "7069d33849d3adcf3fa1191d4555bd3b
 "assets/assets/images/activities/activities-main.jpeg": "733629c4097a6da671612bdb00c2b1ad",
 "assets/assets/images/activities/jeep.jpg": "9c5156e264f628b9f6d277466f436548",
 "assets/assets/images/activities/wf.png": "36b7cd65ce6ecb134481d8cbc0bc4187",
+"assets/assets/images/contact/location.jpg": "305d8b650bf073eeff105c9ee6c55cd2",
+"assets/assets/images/contact/mountain.jpg": "c69e26bb0c4d79c668420248c3de0225",
 "assets/assets/images/home_images/clock.jpg": "d993d6b59b846f314addcced7be63116",
 "assets/assets/images/home_images/home_main-50.jpeg": "b82842792eb58b8bec9da9619e1f9da0",
 "assets/assets/images/home_images/home_main-80.jpeg": "7c6544b53575e92a862d6f952a492444",
@@ -34,6 +36,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "7069d33849d3adcf3fa1191d4555bd3b
 "assets/assets/images/living/living_main.jpg": "1a8612a0877f0980b1c5b455876262f2",
 "assets/assets/location.jpg": "305d8b650bf073eeff105c9ee6c55cd2",
 "assets/assets/logo-small.png": "948367d8bc84c1ebdc050df0a4abfdcd",
+"assets/assets/new-logo.png": "c34bf8213962f5e8289e0cc36713099c",
+"assets/assets/videos/NATURE__SANCTUARY__2.mp4": "301cf4c92e259f10d811290c83d482aa",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/NOTICES": "8c64800313456c771d50ac71138bf101",
@@ -53,9 +57,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "7069d33849d3adcf3fa1191d4555bd3b
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e704327b6d1502d2077d04124a82b841",
-"/": "e704327b6d1502d2077d04124a82b841",
-"main.dart.js": "53c05a2950c581258f78c180027be50a",
+"index.html": "33a5774f4346d4013510a4ddaf61fa51",
+"/": "33a5774f4346d4013510a4ddaf61fa51",
+"main.dart.js": "482e646aae7b76302ff42a2cd240e992",
 "manifest.json": "351db66e93811bade7d012e1e7f5f05a",
 "version.json": "ce02cc7fe8be272bcf3a968ae6256423"};
 // The application shell files that are downloaded before a service worker can
