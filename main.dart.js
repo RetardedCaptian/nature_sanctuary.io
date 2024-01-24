@@ -88631,7 +88631,7 @@ A.Mg.prototype={
 E(a){var s,r,q,p,o=null,n=A.ap(a,o,t.w).w.a,m=n.b,l=A.I(o,m*0.05,o),k=m>800,j=k?m*0.3:m*0.2,i=n.a
 j=A.aaJ(A.bL(A.aW(o,o,B.n,o,o,B.BD,o,j,o,o,o,o,i),o))
 s=A.I(o,m*0.01,o)
-r=A.w("Explore the world of Urumbi and beyond",o,o,o,A.bw().$3$color$fontSize$fontStyle(B.r,18,B.y),o,o)
+r=A.w("Explore your wild side",o,o,o,A.bw().$3$color$fontSize$fontStyle(B.r,18,B.y),o,o)
 q=A.w("Discover fantastic trekking trails that unveil panoramic views, immersing you in the sights and sounds of local topography. Uncover private rainforest, a hidden gem within the 16-acre property. Adjacent is a sprawling 50-acre cardamom plantation, offering treks to the origin of the stream gracing the property. In vicinity, the renowned places of interest await exploration, accessible by trek routes, adrenaline-pumping 4x4 jeep safaris, and excursions by car. Feelfree to let us know and we will be glad to arrange these activities for you.",o,o,o,A.K().$4$color$fontSize$fontStyle$height(B.f,10,B.l,1.5),o,o)
 p=A.I(o,m*0.02,o)
 return A.aW(o,A.aN(A.a([l,j,s,r,new A.aa(B.n9,q,o),p,A.aaJ(A.bL(A.aW(o,o,B.n,o,o,B.BC,o,k?m*0.4:m*0.3,o,o,o,o,i),o))],t.p),B.q,B.t,B.m),B.n,o,o,B.lM,o,m,o,o,o,o,o)}}
